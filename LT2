@@ -16,14 +16,14 @@
 
 
 
-Free Open Source Script
-Version 2015D
+FREE OPEN SOURCE SCRIPT
+VERSION : 2015D
+BETA
+
 
 
 
 ]]--
-
-
 
 
 
@@ -3536,9 +3536,6 @@ local Slot = ui:Tab('Slot','6031090999')
 local Dupe = ui:Tab('Dupe','6035053278')
 
 --
-local Items = ui:Tab('Items','6034744057')
-
---
 local AutoBuy = ui:Tab('Auto Buy','6031289461')
 
 --
@@ -4285,10 +4282,6 @@ end)
   
     
     -----UMAINTENANE-----
-
-    local Fuck = Items:section('Information',true)
-
-    Fuck:Label("Sorry,This Feature Coming Soon!")
 
     ---update logs---+
 
