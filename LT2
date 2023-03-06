@@ -28,7 +28,7 @@ BETA
 
 
 
-
+-----#GUI#-----
 
 local library = {}
 local ToggleUI = false
@@ -1192,7 +1192,9 @@ function library.new(library, name)
   end
   return window
 end
----Variables
+
+
+---VARB
 
 loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
 
@@ -1292,9 +1294,9 @@ if game:GetService("CoreGui"):FindFirstChild("UI") then
     UIStrokeOpen2.Parent = MenuGUI.Menu.Quit.DropShadow
     UIStrokeOpen2.Color = Color3.fromRGB(35, 35, 35)
     UIStrokeOpen2.Thickness = 2
-    --MoneyColor--
+
     PlayerGui.MoneyDisplayGui.Text.TextColor3 = Color3.fromRGB(255, 0, 0)
-    -- # locals # --
+
   local defaults = {FlySpeed = 50,isFlying = false,flystate = false,}
   local AlwaysDay = false
   local AlwaysNight = false
@@ -1304,19 +1306,18 @@ if game:GetService("CoreGui"):FindFirstChild("UI") then
   local DestroyWater = false
   local SolidWater = false
   
-  -- # vars -- #
+
   local HitPoints = {['Beesaxe']= 1.4;['AxeAmber']= 3.39;['ManyAxe']= 10.2;['BasicHatchet']= 0.2;['Axe1']= 0.55;['Axe2']= 0.93;['AxeAlphaTesters']= 1.5;['Rukiryaxe']= 1.68;['Axe3']= 1.45;['AxeBetaTesters']= 1.45;['FireAxe']= 0.6;['SilverAxe']= 1.6;['EndTimesAxe']= 1.58;['AxeChicken']= 0.9;['CandyCaneAxe']= 0;['AxeTwitter']= 1.65}
   local added = nil
   local cut = nil
   local td = false
   local old = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
   
-  -- # tables # --
-  WoodTable = {"Generic","Oak","Cherry","Fir","Pine","Birch","Walnut","Koa","Volcano","Zombie","Gold","Palm","SnowGlow","Frost","CaveCrawler","LoneCave"}
+   WoodTable = {"Generic","Oak","Cherry","Fir","Pine","Birch","Walnut","Koa","Volcano","Zombie","Gold","Palm","SnowGlow","Frost","CaveCrawler","LoneCave"}
   TeleportItemType = {"Tool","Gift","Loose Item","Wire"}
   WaypointsPositions = {"The Den", "Lighthouse", "Safari", "Bridge", "Bob's Shack", "EndTimes Cave", "The Swamp", "The Cabin", "Volcano", "Boxed Cars", "Tiaga Peak", "Land Store", "Link's Logic", "Palm Island", "Palm Island 2", "Palm Island 3", "Fine Art Shop", "SnowGlow Biome", "Cave", "Shrine Of Sight", "Fancy Furnishings", "Docks", "Strange Man", "Wood Dropoff", "Snow Biome", "Wood RUs", "Green Box", "Spawn", "Cherry Meadow", "Bird Cave"}
   
-  -- # functions # --
+----	FUNC
   
   repeat wait()
   until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
@@ -1639,7 +1640,6 @@ end
           Duration = durashin,
       })
   end
-  --------------
   
   function TeleportToPlayer()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[plrselected.Name].Character.HumanoidRootPart.CFrame
@@ -1691,7 +1691,7 @@ end
     end;
   end;
   
-      --GetLoneCave--
+
       local cooper = game.Players.LocalPlayer
       local treeregins = {}
       local treclases = {}
@@ -2210,39 +2210,7 @@ end
         end;
     end;
   end)
-  -----------------------------------------------------
-  
-  
-  
-  
-  
-  
-  --His Script
-  
-  
-  
-  
-  
-  
-  
-  -----------------------------------------------------
-  -----------------------------------------------------
-  
-  
-  
-  
-  
-  
-  --My Script
-  
-  
-  
-  
-  
-  
-  
-  -----------------------------------------------------
-  -----------------------------------------------------
+
   local Players = game:GetService("Players")
   local exec = false
   local TPToWPorPLR = true
@@ -2912,16 +2880,7 @@ end
     end
     return count
   end
-  
-  
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ------------------------------------------------------- UI ----------------------------------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-  -----------------------------------------------------------------
-  --// 1.1 //-- Item Functions
-  -----------------------------------------------------------------
-  
+
   function is_in_frame(screenpos, frame)
   local xPos = frame.AbsolutePosition.X
   local yPos = frame.AbsolutePosition.Yisinframe
@@ -3159,10 +3118,7 @@ end
     end
     end
   
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  --- Item Functions End ---
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
+
   local TeleportReliablity = 30
   local OldCharacterPos;
   
@@ -3222,9 +3178,7 @@ end
         end)
     end    
   end
-  ----------------------------------------------------------------------------------------------------
-  ---------------------------------------------- SETUP ----------------------------------------------
-  ----------------------------------------------------------------------------------------------------
+
   local CancelActions;
   
   local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -3498,11 +3452,6 @@ end
   
   
   
-  
-  
-  
-  
-  -----------------------------------------------------
   
 
 
