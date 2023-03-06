@@ -4236,12 +4236,14 @@ end)
 
     local Vrb = UpdateLogs:section('Version 2015-D',false)
 
-    Vrb:Label("[+] Change Ui Libs To Silent Ui Libs (Credit To Silent)")
-    Vrb:Label("[+] LuaWare Member Get Whitelist For Now")
-    Vrb:Label("[+] Reworking Auto Buy Speed (7x)")
+    Vrb:Label("[+] Adding Max Land Dupe")
+    Vrb:Label("[+] Change Ui Libs To Silent Ui Libs")
+    Vrb:Label("[+] Better Auto Buy Speed")
+    Vrb:Label("[+] Adding Graphics Enchanter (Beta)")
     Vrb:Label("[*] Fixing Stuck In Console")
     Vrb:Label("[-] Deleting Item Tab (We Want Rework This Feature)")
 
+    
     local Vcb = UpdateLogs:section('Version 2015-C',false)
 
     Vcb:Label("[*] Fixing Bug")
@@ -4254,4 +4256,3 @@ end)
 
     Ghb:Label("[+] New Feature Item Teleports")
     Ghb:Label("[*] Better Auto Buy")
-
