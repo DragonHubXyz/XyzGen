@@ -1,7 +1,8 @@
 local library = {}
-local ToggleUI = true
+local ToggleUI = false
 library.currentTab = nil
 library.flags = {}
+
 
 local services = setmetatable({}, {
   __index = function(t, k)
@@ -180,7 +181,7 @@ function library.new(library, name)
   TabMain.Position = UDim2.new(0.217000037, 0, 0, 3)
   TabMain.Size = UDim2.new(0, 448, 0, 346)
   
-  MainC.CornerRadius = UDim.new(0, 10)
+  MainC.CornerRadius = UDim.new(0, 6)
   MainC.Name = "MainC"
   MainC.Parent = Main
   
@@ -190,7 +191,7 @@ function library.new(library, name)
   SB.BorderColor3 = Color3.fromRGB(44, 44, 44)
   SB.Size = UDim2.new(0, 8, 0, 353)
   
-  SBC.CornerRadius = UDim.new(0, 10)
+  SBC.CornerRadius = UDim.new(0, 8)
   SBC.Name = "SBC"
   SBC.Parent = SB
   
@@ -226,14 +227,14 @@ function library.new(library, name)
   
   ScriptTitle.Name = "ScriptTitle"
   ScriptTitle.Parent = Side
-  ScriptTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+  ScriptTitle.BackgroundColor3 = Color3.fromRGB(18, 60, 199)
   ScriptTitle.BackgroundTransparency = 1.000
   ScriptTitle.Position = UDim2.new(0, 0, 0.00953488424, 0)
   ScriptTitle.Size = UDim2.new(0, 102, 0, 20)
-  ScriptTitle.Font = Enum.Font.GothamSemibold
+  ScriptTitle.Font = Enum.Font.Cartoon
   ScriptTitle.Text = name
   ScriptTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-  ScriptTitle.TextSize = 14.000
+  ScriptTitle.TextSize = 20.000
   ScriptTitle.TextXAlignment = Enum.TextXAlignment.Left
   
   SBG.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 40, 40))}
@@ -332,7 +333,7 @@ function library.new(library, name)
       Section.ClipsDescendants = true
       Section.Size = UDim2.new(0.981000006, 0, 0, 36)
       
-      SectionC.CornerRadius = UDim.new(0, 10)
+      SectionC.CornerRadius = UDim.new(0, 6)
       SectionC.Name = "SectionC"
       SectionC.Parent = Section
       
@@ -342,10 +343,10 @@ function library.new(library, name)
       SectionText.BackgroundTransparency = 1.000
       SectionText.Position = UDim2.new(0.0887396261, 0, 0, 0)
       SectionText.Size = UDim2.new(0, 401, 0, 36)
-      SectionText.Font = Enum.Font.GothamSemibold
+      SectionText.Font = Enum.Font.Cartoon
       SectionText.Text = name
       SectionText.TextColor3 = Color3.fromRGB(255, 255, 255)
-      SectionText.TextSize = 16.000
+      SectionText.TextSize = 22.000
       SectionText.TextXAlignment = Enum.TextXAlignment.Left
       
       SectionOpen.Name = "SectionOpen"
@@ -354,7 +355,7 @@ function library.new(library, name)
       SectionOpen.BorderSizePixel = 0
       SectionOpen.Position = UDim2.new(0, -33, 0, 5)
       SectionOpen.Size = UDim2.new(0, 26, 0, 26)
-      SectionOpen.Image = "http://www.roblox.com/asset/?id=6031302934"
+      SectionOpen.Image = "http://www.roblox.com/asset/?id=6034509993"
       
       SectionOpened.Name = "SectionOpened"
       SectionOpened.Parent = SectionOpen
@@ -430,7 +431,7 @@ function library.new(library, name)
         Btn.TextSize = 16.000
         Btn.TextXAlignment = Enum.TextXAlignment.Left
         
-        BtnC.CornerRadius = UDim.new(0, 10)
+        BtnC.CornerRadius = UDim.new(0, 6)
         BtnC.Name = "BtnC"
         BtnC.Parent = Btn
 
@@ -463,7 +464,7 @@ function library.new(library, name)
 	  TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	  TextLabel.TextSize = 14.000
 
-	  LabelC.CornerRadius = UDim.new(0, 10)
+	  LabelC.CornerRadius = UDim.new(0, 6)
 	  LabelC.Name = "LabelC"
 	  LabelC.Parent = TextLabel
 	  return TextLabel
@@ -505,7 +506,7 @@ function library.new(library, name)
         ToggleBtn.TextSize = 16.000
         ToggleBtn.TextXAlignment = Enum.TextXAlignment.Left
         
-        ToggleBtnC.CornerRadius = UDim.new(0, 10)
+        ToggleBtnC.CornerRadius = UDim.new(0, 6)
         ToggleBtnC.Name = "ToggleBtnC"
         ToggleBtnC.Parent = ToggleBtn
         
@@ -521,11 +522,11 @@ function library.new(library, name)
         ToggleSwitch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         ToggleSwitch.Size = UDim2.new(0, 24, 0, 22)
         
-        ToggleSwitchC.CornerRadius = UDim.new(0, 10)
+        ToggleSwitchC.CornerRadius = UDim.new(0, 8)
         ToggleSwitchC.Name = "ToggleSwitchC"
         ToggleSwitchC.Parent = ToggleSwitch
         
-        ToggleDisableC.CornerRadius = UDim.new(0, 10)
+        ToggleDisableC.CornerRadius = UDim.new(0, 8)
         ToggleDisableC.Name = "ToggleDisableC"
         ToggleDisableC.Parent = ToggleDisable        
 
@@ -611,7 +612,7 @@ function library.new(library, name)
         KeybindBtn.TextSize = 16.000
         KeybindBtn.TextXAlignment = Enum.TextXAlignment.Left
         
-        KeybindBtnC.CornerRadius = UDim.new(0, 10)
+        KeybindBtnC.CornerRadius = UDim.new(0, 6)
         KeybindBtnC.Name = "KeybindBtnC"
         KeybindBtnC.Parent = KeybindBtn
         
@@ -627,7 +628,7 @@ function library.new(library, name)
         KeybindValue.TextColor3 = Color3.fromRGB(255, 255, 255)
         KeybindValue.TextSize = 14.000
         
-        KeybindValueC.CornerRadius = UDim.new(0, 10)
+        KeybindValueC.CornerRadius = UDim.new(0, 6)
         KeybindValueC.Name = "KeybindValueC"
         KeybindValueC.Parent = KeybindValue
         
@@ -708,7 +709,7 @@ function library.new(library, name)
         TextboxBack.TextSize = 16.000
         TextboxBack.TextXAlignment = Enum.TextXAlignment.Left
         
-        TextboxBackC.CornerRadius = UDim.new(0, 10)
+        TextboxBackC.CornerRadius = UDim.new(0, 6)
         TextboxBackC.Name = "TextboxBackC"
         TextboxBackC.Parent = TextboxBack
         
@@ -724,7 +725,7 @@ function library.new(library, name)
         BoxBG.TextColor3 = Color3.fromRGB(255, 255, 255)
         BoxBG.TextSize = 14.000
         
-        BoxBGC.CornerRadius = UDim.new(0, 10)
+        BoxBGC.CornerRadius = UDim.new(0, 6)
         BoxBGC.Name = "BoxBGC"
         BoxBGC.Parent = BoxBG
         
@@ -808,7 +809,7 @@ function library.new(library, name)
         SliderBack.TextSize = 16.000
         SliderBack.TextXAlignment = Enum.TextXAlignment.Left
         
-        SliderBackC.CornerRadius = UDim.new(0, 10)
+        SliderBackC.CornerRadius = UDim.new(0, 6)
         SliderBackC.Name = "SliderBackC"
         SliderBackC.Parent = SliderBack
         
@@ -820,7 +821,7 @@ function library.new(library, name)
         SliderBar.Position = UDim2.new(0.369000018, 40, 0.5, 0)
         SliderBar.Size = UDim2.new(0, 140, 0, 12)
         
-        SliderBarC.CornerRadius = UDim.new(0, 10)
+        SliderBarC.CornerRadius = UDim.new(0, 4)
         SliderBarC.Name = "SliderBarC"
         SliderBarC.Parent = SliderBar
         
@@ -830,7 +831,7 @@ function library.new(library, name)
         SliderPart.BorderSizePixel = 0
         SliderPart.Size = UDim2.new(0, 54, 0, 13)
         
-        SliderPartC.CornerRadius = UDim.new(0, 10)
+        SliderPartC.CornerRadius = UDim.new(0, 4)
         SliderPartC.Name = "SliderPartC"
         SliderPartC.Parent = SliderPart
         
@@ -846,7 +847,7 @@ function library.new(library, name)
         SliderValBG.TextColor3 = Color3.fromRGB(255, 255, 255)
         SliderValBG.TextSize = 14.000
         
-        SliderValBGC.CornerRadius = UDim.new(0, 10)
+        SliderValBGC.CornerRadius = UDim.new(0, 6)
         SliderValBGC.Name = "SliderValBGC"
         SliderValBGC.Parent = SliderValBG
         
@@ -1014,7 +1015,7 @@ function library.new(library, name)
         DropdownTop.TextSize = 16.000
         DropdownTop.TextXAlignment = Enum.TextXAlignment.Left
         
-        DropdownTopC.CornerRadius = UDim.new(0, 10)
+        DropdownTopC.CornerRadius = UDim.new(0, 6)
         DropdownTopC.Name = "DropdownTopC"
         DropdownTopC.Parent = DropdownTop
         
@@ -1121,7 +1122,7 @@ function library.new(library, name)
           Option.TextColor3 = Color3.fromRGB(255, 255, 255)
           Option.TextSize = 14.000
           
-          OptionC.CornerRadius = UDim.new(0, 10)
+          OptionC.CornerRadius = UDim.new(0, 6)
           OptionC.Name = "OptionC"
           OptionC.Parent = Option
 
