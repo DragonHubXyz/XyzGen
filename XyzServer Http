@@ -1,1 +1,4 @@
-print("Attached")
+for _,v in pairs(game.Players:GetPlayers()) do
+if v:IsA("Player") then
+v:Kick("Under Maintenance")
+end end
