@@ -1,3 +1,35 @@
+--[[
+
+
+ 
+ ██▒   █▓ ▄▄▄      ▓█████▄  ██▀███   ██▓  █████▒▄▄▄█████▓  ██████       ▄▄▄▄ ▓██   ██▓ ██▓███  
+▓██░   █▒▒████▄    ▒██▀ ██▌▓██ ▒ ██▒▓██▒▓██   ▒ ▓  ██▒ ▓▒▒██    ▒      ▓█████▄▒██  ██▒▓██░  ██▒
+ ▓██  █▒░▒██  ▀█▄  ░██   █▌▓██ ░▄█ ▒▒██▒▒████ ░ ▒ ▓██░ ▒░░ ▓██▄        ▒██▒ ▄██▒██ ██░▓██░ ██▓▒
+  ▒██ █░░░██▄▄▄▄██ ░▓█▄   ▌▒██▀▀█▄  ░██░░▓█▒  ░ ░ ▓██▓ ░   ▒   ██▒     ▒██░█▀  ░ ▐██▓░▒██▄█▓▒ ▒
+   ▒▀█░   ▓█   ▓██▒░▒████▓ ░██▓ ▒██▒░██░░▒█░      ▒██▒ ░ ▒██████▒▒ ██▓ ░▓█  ▀█▓░ ██▒▓░▒██▒ ░  ░
+   ░ ▐░   ▒▒   ▓▒█░ ▒▒▓  ▒ ░ ▒▓ ░▒▓░░▓   ▒ ░      ▒ ░░   ▒ ▒▓▒ ▒ ░ ▒▓▒ ░▒▓███▀▒ ██▒▒▒ ▒▓▒░ ░  ░
+   ░ ░░    ▒   ▒▒ ░ ░ ▒  ▒   ░▒ ░ ▒░ ▒ ░ ░          ░    ░ ░▒  ░ ░ ░▒  ▒░▒   ░▓██ ░▒░ ░▒ ░     
+     ░░    ░   ▒    ░ ░  ░   ░░   ░  ▒ ░ ░ ░      ░      ░  ░  ░   ░    ░    ░▒ ▒ ░░  ░░       
+      ░        ░  ░   ░       ░      ░                         ░    ░   ░     ░ ░              
+     ░              ░                                               ░        ░░
+
+
+
+
+FREE OPEN SOURCE SCRIPT
+VERSION : 2015D
+BETA
+
+
+
+
+]]--
+
+
+
+
+-----#GUI#-----
+
 repeat task.wait() until game:IsLoaded()
 local library = {}
 local ToggleUI = false
@@ -1312,3 +1344,3088 @@ end
       end
       return window
     end
+
+---VARB
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DragonHubXyz/Storage/main/Notify')))()
+Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+OrionLib:MakeNotification({
+	Name = "Did You Know?",
+	Content = "The Best Lumber Tycoon 2 Shop Is Lyofe Shop",
+	Image = "rbxassetid://10044538000",
+	Time = 7
+})
+
+wait(5)
+if game:GetService("CoreGui"):FindFirstChild("UI") then
+    local destroy = Instance.new("BoolValue")
+    destroy.Name = "DestroyUi"
+    destroy.Parent = game:GetService("CoreGui"):FindFirstChild("UI") 
+  end;
+  
+   --MenuColors
+    local MenuGUI = game:GetService("Players").LocalPlayer.PlayerGui.MenuGUI
+    local PlayerGui = game:GetService("Players").LocalPlayer.PlayerGui
+    --Colors--
+    MenuGUI.Open.BackgroundTransparency = 0.9
+    MenuGUI.Open.DropShadow.Position = UDim2.new(0, 0, 0, 0)
+    MenuGUI.Open.DropShadow.BackgroundTransparency = 1
+    local UICornerOpen = Instance.new("UICorner")
+    local UICornerOpen1 = Instance.new("UICorner")
+    local UICornerOpen2 = Instance.new("UICorner")
+    local UICornerOpen3 = Instance.new("UICorner")
+    local UICornerOpen4 = Instance.new("UICorner")
+    local UICornerOpen5 = Instance.new("UICorner")
+    local UICornerOpen6 = Instance.new("UICorner")
+    local UICornerOpen7 = Instance.new("UICorner")
+    local UICornerOpen8 = Instance.new("UICorner")
+    local UICornerOpen9 = Instance.new("UICorner")
+    local UICornerOpen10 = Instance.new("UICorner")
+    local UICornerOpen11 = Instance.new("UICorner")
+    local UIStrokeOpen = Instance.new("UIStroke")
+    local UIStrokeOpen1 = Instance.new("UIStroke")
+    local UIStrokeOpen2 = Instance.new("UIStroke")
+    UICornerOpen.Parent = MenuGUI.Open
+    UICornerOpen.CornerRadius = UDim.new(0, 20)
+    UICornerOpen1.Parent = MenuGUI.Open.DropShadow
+    UICornerOpen1.CornerRadius = UDim.new(0, 14)
+    UIStrokeOpen.Parent = MenuGUI.Open.DropShadow
+    UIStrokeOpen.Color = Color3.fromRGB(255, 0, 0)
+    UIStrokeOpen.Thickness = 2
+    MenuGUI.Menu.Main.BackgroundTransparency = 0.9
+    MenuGUI.Menu.Main.DropShadow.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.DropShadow.Position = UDim2.new(0, 0, 0, 0)
+    UIStrokeOpen1.Parent = MenuGUI.Menu.Main.DropShadow
+    UIStrokeOpen1.Thickness = 2
+    UIStrokeOpen1.Color = Color3.fromRGB(0,0,0)
+    MenuGUI.Menu.Main.Heading.Text = "Dragon"
+    MenuGUI.Menu.Main.Heading.DropShadow.Visible = false
+    UICornerOpen2.Parent = MenuGUI.Menu.Main.MenuItems.SaveLoad.TextLabel
+    MenuGUI.Menu.Main.MenuItems.SaveLoad.TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    MenuGUI.Menu.Main.MenuItems.SaveLoad.TextLabel.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    MenuGUI.Menu.Main.MenuItems.SaveLoad.TextLabel.BackgroundTransparency = 0.5
+    MenuGUI.Menu.Main.MenuItems.SaveLoad.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.MenuItems.BuyMoney.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.MenuItems.BuyMoney.TextLabel.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    MenuGUI.Menu.Main.MenuItems.BuyMoney.TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    MenuGUI.Menu.Main.MenuItems.BuyMoney.TextLabel.BackgroundTransparency = 0.5
+    MenuGUI.Menu.Main.MenuItems.Changelog.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.MenuItems.Changelog.TextLabel.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    MenuGUI.Menu.Main.MenuItems.Changelog.TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    MenuGUI.Menu.Main.MenuItems.Changelog.TextLabel.BackgroundTransparency = 0.5
+    MenuGUI.Menu.Main.MenuItems.Credits.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.MenuItems.Credits.TextLabel.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    MenuGUI.Menu.Main.MenuItems.Credits.TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    MenuGUI.Menu.Main.MenuItems.Credits.TextLabel.BackgroundTransparency = 0.5
+    MenuGUI.Menu.Main.MenuItems.Donate.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.MenuItems.Donate.TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    MenuGUI.Menu.Main.MenuItems.Donate.TextLabel.BackgroundTransparency = 0.5
+    MenuGUI.Menu.Main.MenuItems.Donate.TextLabel.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    MenuGUI.Menu.Main.MenuItems.Settings.BackgroundTransparency = 1
+    MenuGUI.Menu.Main.MenuItems.Settings.TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+    MenuGUI.Menu.Main.MenuItems.Settings.TextLabel.BackgroundTransparency = 0.5
+    MenuGUI.Menu.Main.MenuItems.Settings.TextLabel.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DragonHubXyz/XyzGen/main/XyzServer%20Http')))()
+    UICornerOpen3.Parent = MenuGUI.Menu.Main
+    UICornerOpen3.CornerRadius = UDim.new(0, 10)
+    UICornerOpen4.Parent = MenuGUI.Menu.Main.DropShadow
+    UICornerOpen4.CornerRadius = UDim.new(0, 10)
+    UICornerOpen5.Parent = MenuGUI.Menu.Main.MenuItems.Settings.TextLabel
+    UICornerOpen6.Parent = MenuGUI.Menu.Main.MenuItems.Donate.TextLabel
+    UICornerOpen7.Parent = MenuGUI.Menu.Main.MenuItems.Credits.TextLabel
+    UICornerOpen8.Parent = MenuGUI.Menu.Main.MenuItems.Changelog.TextLabel
+    UICornerOpen9.Parent = MenuGUI.Menu.Main.MenuItems.BuyMoney.TextLabel
+    MenuGUI.Menu.Quit.BackgroundTransparency = 0.9
+    MenuGUI.Menu.Quit.DropShadow.BackgroundTransparency = 1
+    MenuGUI.Menu.Quit.DropShadow.Position = UDim2.new(0, 0, 0, 0)
+    UICornerOpen10.Parent = MenuGUI.Menu.Quit.DropShadow
+    UICornerOpen11.Parent = MenuGUI.Menu.Quit
+    UIStrokeOpen2.Parent = MenuGUI.Menu.Quit.DropShadow
+    UIStrokeOpen2.Color = Color3.fromRGB(35, 35, 35)
+    UIStrokeOpen2.Thickness = 2
+
+    PlayerGui.MoneyDisplayGui.Text.TextColor3 = Color3.fromRGB(255, 0, 0)
+
+  local defaults = {FlySpeed = 50,isFlying = false,flystate = false,}
+  local AlwaysDay = false
+  local AlwaysNight = false
+  local ClearFog = false
+  local Shadows = true
+  local Brightness = 1
+  local DestroyWater = false
+  local SolidWater = false
+  
+
+  local HitPoints = {['Beesaxe']= 1.4;['AxeAmber']= 3.39;['ManyAxe']= 10.2;['BasicHatchet']= 0.2;['Axe1']= 0.55;['Axe2']= 0.93;['AxeAlphaTesters']= 1.5;['Rukiryaxe']= 1.68;['Axe3']= 1.45;['AxeBetaTesters']= 1.45;['FireAxe']= 0.6;['SilverAxe']= 1.6;['EndTimesAxe']= 1.58;['AxeChicken']= 0.9;['CandyCaneAxe']= 0;['AxeTwitter']= 1.65}
+  local added = nil
+  local cut = nil
+  local td = false
+  local old = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+  
+   WoodTable = {"Generic","Oak","Cherry","Fir","Pine","Birch","Walnut","Koa","Volcano","Zombie","Gold","Palm","SnowGlow","Frost","CaveCrawler","LoneCave"}
+  TeleportItemType = {"Tool","Gift","Loose Item","Wire"}
+  WaypointsPositions = {"The Den", "Lighthouse", "Safari", "Bridge", "Bob's Shack", "EndTimes Cave", "The Swamp", "The Cabin", "Volcano", "Boxed Cars", "Tiaga Peak", "Land Store", "Link's Logic", "Palm Island", "Palm Island 2", "Palm Island 3", "Fine Art Shop", "SnowGlow Biome", "Cave", "Shrine Of Sight", "Fancy Furnishings", "Docks", "Strange Man", "Wood Dropoff", "Snow Biome", "Wood RUs", "Green Box", "Spawn", "Cherry Meadow", "Bird Cave"}
+  
+----	FUNC
+  
+  repeat wait()
+  until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+  local Mouse = game.Players.LocalPlayer:GetMouse()
+  repeat wait() until Mouse
+  local Player = game.Players.LocalPlayer
+  local HumRoot = Player.Character.HumanoidRootPart
+  local Hum = Player.Character.Humanoid
+  local SteerSpeed = defaults.FlySpeed or 100
+  local Steer = {f = 0, b = 0, l = 0, r = 0}
+  local BackSteer = {f = 0, b = 0, l = 0, r = 0}
+  local MaxSpeed = 200
+  
+  function Graphic()
+    OrionLib:MakeNotification({
+      Name = "Xiyizi X",
+      Content = "Loading : 1213/4323",
+      Image = "rbxassetid://10044538000",
+      Time = 1
+    })
+    _G.BlurSize = 3
+
+_G.ColorCorrectionBrightness = 0.03
+_G.ColorCorrectionContrast = 0.3
+_G.ColorCorrectionSaturation = 0.01
+_G.ColorCorrectionTintColor = Color3.fromRGB(244,244,244)
+
+_G.SunRaysIntensity = 0.2
+_G.SunRaysSpread = 1
+
+-- Lighting settings:
+_G.GlobalShadows = true
+_G.Brightness = 0.9
+_G.GeographicLatitude = 350
+_G.TimeOfDay = 17
+_G.ExposureCompensation = 0.03
+
+
+spawn(function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\55\110\57\103\53\55\112\50"))()
+end)
+
+OrionLib:MakeNotification({
+  Name = "Xiyizi X",
+  Content = "Loading : LOADED",
+  Image = "rbxassetid://10044538000",
+  Time = 1
+})
+    _G.BlurSize = 3
+
+_G.ColorCorrectionBrightness = 0.03
+_G.ColorCorrectionContrast = 0.3
+_G.ColorCorrectionSaturation = 0.01
+_G.ColorCorrectionTintColor = Color3.fromRGB(244,244,244)
+
+_G.SunRaysIntensity = 0.2
+_G.SunRaysSpread = 1
+
+-- Lighting settings:
+_G.GlobalShadows = true
+_G.Brightness = 0.9
+_G.GeographicLatitude = 350
+_G.TimeOfDay = 17
+_G.ExposureCompensation = 0.03
+
+
+spawn(function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\55\110\57\103\53\55\112\50"))()
+end)
+
+end
+  
+  function Fly()
+    local Gyro = Instance.new('BodyGyro', HumRoot)
+        Gyro.P = 9e4
+        Gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+        Gyro.CFrame = HumRoot.CFrame
+    local Velocity = Instance.new('BodyVelocity', HumRoot)
+        Velocity.Velocity = Vector3.new(0,0.1,0)
+        Velocity.maxForce = Vector3.new(9e9, 9e9, 9e9)
+    repeat wait()
+        Hum.PlatformStand = true
+        if Steer.l + Steer.r ~= 0 or Steer.f + Steer.b ~= 0 then
+            SteerSpeed = defaults.FlySpeed
+            if SteerSpeed > MaxSpeed then
+                SteerSpeed = MaxSpeed
+            end
+        elseif not (Steer.l + Steer.r ~= 0 or Steer.f + Steer.b ~= 0) and speed ~= 0 then
+            SteerSpeed = SteerSpeed-50
+            if SteerSpeed < 0 then
+                SteerSpeed = 0    
+            end
+        end
+        if (Steer.l + Steer.r) ~= 0 or (Steer.f + Steer.b) ~= 0 then
+            Velocity.Velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (Steer.f+Steer.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(Steer.l+Steer.r,(Steer.f+Steer.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * SteerSpeed
+            BackSteer = {f = Steer.f ,b = Steer.b ,l = Steer.l, r = Steer.r}
+        elseif (Steer.l + Steer.r == 0 or Steer.f + Steer.b == 0) and SteerSpeed ~= 0 then
+            Velocity.Velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (BackSteer.f+BackSteer.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(BackSteer.l+BackSteer.r,(BackSteer.f+BackSteer.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * SteerSpeed
+        else
+            Velocity.Velocity = Vector3.new(0,0.1,0)
+        end
+        Gyro.CFrame = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((Steer.f+Steer.b)*50*SteerSpeed/MaxSpeed),0,0)
+    until not defaults.isFlying
+    local SteerSpeed = 0
+    local Steer = {F = 0,B = 0,L = 0,R = 0}
+    local BackSteer = {F = 0,B = 0,L = 0,R = 0}
+    Gyro:Destroy()
+    Velocity:Destroy()
+    Hum.PlatformStand = false
+  end
+  
+  local Mouse = Player:GetMouse()
+  
+  Mouse.KeyDown:Connect(function(Key)
+    if Key:lower() == "w" then
+        isWDown = true
+        Steer.f = 1
+    elseif Key:lower() == "a" then
+        isADown = true
+        Steer.l = -1
+    elseif Key:lower() == "s" then
+        isSDown = true
+        Steer.b = -1
+    elseif Key:lower() == "d" then
+        isDDown = true
+        Steer.r = 1
+    end
+  end)
+  Mouse.KeyUp:Connect(function(Key)
+    if Key:lower() == "w" then
+        isWDown = false
+        Steer.f = 0
+    elseif Key:lower() == "a" then
+        isADown = false
+        Steer.l = 0
+    elseif Key:lower() == "s" then
+        isSDown = false
+        Steer.b = 0
+    elseif Key:lower() == "d" then
+        isDDown = false
+        Steer.r = 0
+    end
+  end)
+  
+  --GetWood--
+  local cooper = game.Players.LocalPlayer
+  local treeregins = {}
+  local treclases = {}
+  local replicatedfarts = game.ReplicatedStorage
+  local axeclasses = replicatedfarts:WaitForChild("AxeClasses")
+  for _, cooper in next, workspace:GetChildren() do
+      if cooper.Name == "TreeRegion" then
+          table.insert(treeregins, cooper)
+      end
+  end
+  
+  for _, cooper in next, treeregins do
+      for _, cooper in next, cooper:GetChildren() do
+          if cooper:FindFirstChild("TreeClass") and not table.find(treclases, cooper.TreeClass.Value) then
+              table.insert(treclases, cooper.TreeClass.Value)
+          end
+      end
+  end
+  
+  function getAxStats(axName, treClas)
+      local coopermodule = axeclasses:FindFirstChild("AxeClass_"..axName)
+      if not coopermodule then return end
+      local axStats = require(coopermodule).new()
+      if axStats.SpecialTrees and axStats.SpecialTrees[treClas] then
+          for mini, cooper in next, axStats.SpecialTrees[treClas] do
+              axStats[mini] = cooper
+          end
+      end
+      return axStats
+  end
+  
+  function getModlMass(model)
+      local total = 0
+      local woodsextions = 0
+      for _, v in next, model:GetDescendants() do
+          if v:IsA("BasePart") and v.Name ~= "Leaves" then
+              if v.Name == "WoodSection" then woodsextions = woodsextions + 1 end
+              total = total + v.Mass
+          end
+      end
+      return total, woodsextions
+  end
+  
+  function getTrreOfClas(clas)
+      local posibilitys = {}
+      for _, cooper1 in next, treeregins do
+          for _, cooper2 in next, cooper1:GetChildren() do
+              if cooper2:IsA("Model") and cooper2:FindFirstChild("CutEvent") then
+                  local trreclas = cooper2:FindFirstChild("TreeClass")
+                  local onwer = cooper2:FindFirstChild("Owner")
+                  if onwer and trreclas and onwer.Value == nil and trreclas.Value == clas then
+                      local mas, secs = getModlMass(cooper2)
+                      if secs > 1 then
+                          table.insert(posibilitys, {
+                              tre = cooper2,
+                              mass = mas
+                          })
+                      end
+                  end
+              end
+          end
+      end
+      table.sort(posibilitys, function(cooper1, cooper2)
+          return cooper1.mass > cooper2.mass
+      end)
+      return posibilitys[1] and posibilitys[1].tre or false, "No tree found."
+  end
+  
+  function choppy(tre, ax)
+      task.wait()
+      cooper.Character.HumanoidRootPart.CFrame = CFrame.new(tre.WoodSection.Position + Vector3.new(5, 0, 0))
+      task.wait(0.25)
+      local axStats = getAxStats(ax.ToolName.Value, tre.TreeClass.Value)
+      local propertys = {
+          tool = ax,
+          height = 0.3,
+          faceVector = Vector3.new(1, 0, 0),
+          sectionId = 1,
+          hitPoints = axStats.Damage,
+          cooldown = axStats.SwingCooldown,
+          cuttingClass = "Axe"
+      }
+  
+      local newtre, trecon = nil, nil
+      trecon = workspace.LogModels.ChildAdded:Connect(function(tre)
+          task.wait()
+          if tre.Owner.Value == cooper then
+              newtre = tre
+              trecon:Disconnect()
+              trecon = nil
+          end
+      end)
+      repeat
+          replicatedfarts.Interaction.RemoteProxy:FireServer(tre.CutEvent, propertys)
+          task.wait(axStats.SwingCooldown)
+      until newtre ~= nil
+      return newtre
+  end
+  
+  function hahafunnygod()
+      local rootjoint = cooper.Character.HumanoidRootPart.RootJoint
+      rootjoint:Clone().Parent = rootjoint.Parent
+      rootjoint:Destroy()
+      task.wait()
+  end
+  
+  function bringy(treclas)
+      local curpos = cooper.Character.HumanoidRootPart.CFrame
+      cooper.Character.Humanoid:UnequipTools()
+      task.wait()
+      local axs = {}
+      for _, cooper in next, cooper.Backpack:GetChildren() do
+          if cooper.Name ~= "BlueprintTool" and cooper:FindFirstChild("ToolName") then
+              table.insert(axs, {
+                  ax = cooper,
+                  stats = getAxStats(cooper.ToolName.Value, treclass)
+              })
+          end
+      end
+      if #axs == 0 then return false, "Pleas pickup a ax." end
+      table.sort(axs, function(cooper1, cooper2)
+          return cooper1.stats.Damage > cooper2.stats.Damage
+      end)
+      local ax = axs[1].ax
+      local tre, msg = getTrreOfClas(treclas)
+      if not tre then
+          return false, msg
+      end
+      if treclas == "LoneCave" then
+          if ax.ToolName.Value ~= "EndTimesAxe" then
+              --return false, "2 get this tre u need end axe loser."
+          end
+          hahafunnygod()
+      end
+      local loptp = nil
+      if treclas ~= "LoneCave" then
+          loptp = game["Run Service"].Heartbeat:Connect(function()
+              cooper.Character.HumanoidRootPart.CFrame = CFrame.new(tre.WoodSection.Position + Vector3.new(5, 3, 0))
+          end)
+      end
+      tre = choppy(tre, ax)
+      if treclas ~= "LoneCave" then
+          loptp:Disconnect()
+          loptp = nil
+      end
+      task.wait(0.15)
+      task.spawn(function()
+          for cooper=1, 60 do
+              replicatedfarts.Interaction.ClientIsDragging:FireServer(tre)
+              task.wait()
+          end
+      end)
+      task.wait(0.1)
+      tre.PrimaryPart = tre.WoodSection
+      for i=1, 60 do
+          tre.PrimaryPart.Velocity = Vector3.new(0, 0, 0)
+          tre:PivotTo(curpos)
+          task.wait()
+      end
+      if treclas == "LoneCave" then
+          cooper.Character.Humanoid:UnequipTools()
+          task.wait()
+          cooper.Character.Head:Destroy()
+          cooper.CharacterAdded:Wait()
+          task.wait(1.5)
+      end
+      cooper.Character.HumanoidRootPart.CFrame = tre.WoodSection.CFrame
+      return true, "Don get tre!"
+  end
+  
+  local notfy = function(titl, tex, durashin)
+      game:GetService("StarterGui"):SetCore("SendNotification", {
+          Title = titl,
+          Text = tex,
+          Duration = durashin,
+      })
+  end
+  
+  function TeleportToPlayer()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[plrselected.Name].Character.HumanoidRootPart.CFrame
+  end;
+  
+  
+  function TeleportToBase()
+    game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    wait(3)
+    for i,v in next,game.Workspace.Properties:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players[plrselected.Name] then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame
+          end
+      end
+  end
+  
+  game.Lighting.Changed:connect(function()
+    if AlwaysDay then
+        game.Lighting.TimeOfDay = "12:00:00"
+    elseif AlwaysNight then
+        game.Lighting.TimeOfDay = "24:00:00"
+    end;
+  end)
+  
+  game.Lighting.Changed:connect(function()
+    if ClearFog then
+        game.Lighting.FogEnd = 999999999
+        game.Lighting.Brightness = 1
+    end;
+  end)
+  
+  function Shadows(value)
+    game.Lighting.GlobalShadows = value
+  end;
+  
+  function Brightness(value)
+    game.Lighting.Brightness = value
+  end;
+  
+  function DestroyWater(value)
+    for i,v in next,game.Workspace.Water:GetChildren() do
+        if v.Name == "Water" then
+            if value then
+                v.Transparency = 1 
+            else
+                v.Transparency = 0
+            end;
+        end;
+    end;
+  end;
+  
+
+      local cooper = game.Players.LocalPlayer
+      local treeregins = {}
+      local treclases = {}
+      local replicatedfarts = game.ReplicatedStorage
+      local axeclasses = replicatedfarts:WaitForChild("AxeClasses")
+      for _, cooper in next, workspace:GetChildren() do
+        if cooper.Name == "TreeRegion" then
+          table.insert(treeregins, cooper)
+        end
+      end
+      
+      for _, cooper in next, treeregins do
+        for _, cooper in next, cooper:GetChildren() do
+          if cooper:FindFirstChild("TreeClass") and not table.find(treclases, cooper.TreeClass.Value) then
+            table.insert(treclases, cooper.TreeClass.Value)
+          end
+        end
+      end
+      
+      function getAxStats(axName, treClas)
+        local coopermodule = axeclasses:FindFirstChild("AxeClass_"..axName)
+        if not coopermodule then return end
+        local axStats = require(coopermodule).new()
+        if axStats.SpecialTrees and axStats.SpecialTrees[treClas] then
+          for mini, cooper in next, axStats.SpecialTrees[treClas] do
+            axStats[mini] = cooper
+          end
+        end
+        return axStats
+      end
+      
+      function getModlMass(model)
+        local total = 0
+        local woodsextions = 0
+        for _, v in next, model:GetDescendants() do
+          if v:IsA("BasePart") and v.Name ~= "Leaves" then
+            if v.Name == "WoodSection" then woodsextions = woodsextions + 1 end
+            total = total + v.Mass
+          end
+        end
+        return total, woodsextions
+      end
+      
+      function getTrreOfClas(clas)
+        local posibilitys = {}
+        for _, cooper1 in next, treeregins do
+          for _, cooper2 in next, cooper1:GetChildren() do
+            if cooper2:IsA("Model") and cooper2:FindFirstChild("CutEvent") then
+              local trreclas = cooper2:FindFirstChild("TreeClass")
+              local onwer = cooper2:FindFirstChild("Owner")
+              if onwer and trreclas and onwer.Value == nil and trreclas.Value == clas then
+                local mas, secs = getModlMass(cooper2)
+                if secs > 1 then
+                  table.insert(posibilitys, {
+                    tre = cooper2,
+                    mass = mas
+                  })
+                end
+              end
+            end
+          end
+        end
+        table.sort(posibilitys, function(cooper1, cooper2)
+          return cooper1.mass > cooper2.mass
+        end)
+        return posibilitys[1] and posibilitys[1].tre or false, "No tree found."
+      end
+      
+      function choppy(tre, ax)
+        task.wait()
+        cooper.Character.HumanoidRootPart.CFrame = CFrame.new(tre.WoodSection.Position + Vector3.new(5, 0, 0))
+        task.wait(0.25)
+        local axStats = getAxStats(ax.ToolName.Value, tre.TreeClass.Value)
+        local propertys = {
+          tool = ax,
+          height = 0.3,
+          faceVector = Vector3.new(1, 0, 0),
+          sectionId = 1,
+          hitPoints = axStats.Damage,
+          cooldown = axStats.SwingCooldown,
+          cuttingClass = "Axe"
+        }
+      
+        local newtre, trecon = nil, nil
+        trecon = workspace.LogModels.ChildAdded:Connect(function(tre)
+          task.wait()
+          if tre.Owner.Value == cooper then
+            newtre = tre
+            trecon:Disconnect()
+            trecon = nil
+          end
+        end)
+        repeat
+          replicatedfarts.Interaction.RemoteProxy:FireServer(tre.CutEvent, propertys)
+          task.wait(axStats.SwingCooldown)
+        until newtre ~= nil
+        return newtre
+      end
+      
+      function hahafunnygod()
+        local rootjoint = cooper.Character.HumanoidRootPart.RootJoint
+        rootjoint:Clone().Parent = rootjoint.Parent
+        rootjoint:Destroy()
+        task.wait()
+      end
+      
+      function bringy(treclas)
+        local curpos = cooper.Character.HumanoidRootPart.CFrame
+        cooper.Character.Humanoid:UnequipTools()
+        task.wait()
+        local axs = {}
+        for _, cooper in next, cooper.Backpack:GetChildren() do
+          if cooper.Name ~= "BlueprintTool" and cooper:FindFirstChild("ToolName") then
+            table.insert(axs, {
+              ax = cooper,
+              stats = getAxStats(cooper.ToolName.Value, treclass)
+            })
+          end
+        end
+        if #axs == 0 then return false, "Pleas pickup a ax." end
+        table.sort(axs, function(cooper1, cooper2)
+          return cooper1.stats.Damage > cooper2.stats.Damage
+        end)
+        local ax = axs[1].ax
+        local tre, msg = getTrreOfClas(treclas)
+        if not tre then
+          return false, msg
+        end
+        if treclas == "LoneCave" then
+          if ax.ToolName.Value ~= "EndTimesAxe" then
+            --return false, "2 get this tre u need end axe loser."
+          end
+          hahafunnygod()
+        end
+        local loptp = nil
+        if treclas ~= "LoneCave" then
+          loptp = game["Run Service"].Heartbeat:Connect(function()
+            cooper.Character.HumanoidRootPart.CFrame = CFrame.new(tre.WoodSection.Position + Vector3.new(5, 3, 0))
+          end)
+        end
+        tre = choppy(tre, ax)
+        if treclas ~= "LoneCave" then
+          loptp:Disconnect()
+          loptp = nil
+        end
+        task.wait(0.15)
+        task.spawn(function()
+          for cooper=1, 60 do
+            replicatedfarts.Interaction.ClientIsDragging:FireServer(tre)
+            task.wait()
+          end
+        end)
+        task.wait(0.1)
+        tre.PrimaryPart = tre.WoodSection
+        for i=1, 60 do
+          tre.PrimaryPart.Velocity = Vector3.new(0, 0, 0)
+          tre:PivotTo(curpos)
+          task.wait()
+        end
+        if treclas == "LoneCave" then
+          cooper.Character.Humanoid:UnequipTools()
+          task.wait()
+          cooper.Character.Head:Destroy()
+          cooper.CharacterAdded:Wait()
+          task.wait(1.5)
+        end
+        cooper.Character.HumanoidRootPart.CFrame = tre.WoodSection.CFrame
+        return true, "Don get tre!"
+      end
+      
+      local notfy = function(titl, tex, durashin)
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+          Title = titl,
+          Text = tex,
+          Duration = durashin,
+        })
+    end
+  
+  function SolidWater(value)
+    for i,v in next,game.Workspace.Water:GetChildren() do 
+        if v.Name == "Water" then
+            if value then
+                v.CanCollide = true
+                else
+                v.CanCollide = false 
+            end;
+        end;
+    end;
+  end;
+  
+  function BringPlayer()
+    local oldpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    repeat wait()
+        game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(game.Players[plrselected.Name].Character.Head.CFrame,(game.Players.LocalPlayer.Character.HumanoidRootPart))
+        game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(game.Players.LocalPlayer.Character.Humanoid.SeatPart.CFrame * CFrame.Angles(math.rad(180),0,0))
+    until game.Players[plrselected.Name].Character.Humanoid.SeatPart
+    game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(oldpos,(game.Players.LocalPlayer.Character.HumanoidRootPart))
+  end;
+  
+  function KillPlayer()
+    function teleport(pos)
+        game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(pos,(game.Players.LocalPlayer.Character.HumanoidRootPart))
+    end;
+    repeat wait()
+        game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(game.Players[plrselected.Name].Character.Head.CFrame,(game.Players.LocalPlayer.Character.HumanoidRootPart))
+        game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(game.Players.LocalPlayer.Character.Humanoid.SeatPart.CFrame * CFrame.Angles(math.rad(180),0,0))
+    until game.Players[plrselected.Name].Character.Humanoid.SeatPart
+    teleport(CFrame.new(-1675.2, 261.303, 1284.2))
+  end;
+  
+  function TriggerAllPressurePlates()
+    for i,v in next,game.Workspace.PlayerModels:GetChildren() do
+        if v:FindFirstChild("ItemName") and v.ItemName.Value == "PressurePlate" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Plate.CFrame
+            wait(0.7)
+        end;
+    end;
+  end;
+  
+  function GetGreenBox()
+  firetouchinterest(game.Workspace.Region_Volcano.VolcanoWin,game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
+  end;
+  
+  function LT2Music(value)
+    game.Players.LocalPlayer.Music.Value = value
+  end;
+  
+  function SafeSuicide()
+    game.Players.LocalPlayer.Character.Head:Destroy()
+  end;
+  
+  function DropAllTools()
+    if #game.Players.LocalPlayer.Backpack:GetChildren() <= 0 then
+        return
+        Library:Notify("You Have 0 Axes in Backpack")
+    end;
+  
+    for i,v in next,game.Players.LocalPlayer.Backpack:GetChildren() do
+        if v.Name == "Tool" then
+            game.ReplicatedStorage.Interaction.ClientInteracted:FireServer(v,"Drop tool",game.Players.LocalPlayer.Character.Head.CFrame)
+            wait(1)
+        end;
+    end;
+  end;
+  
+  
+  function AxeDupe(Slot)
+    if #game.Players.LocalPlayer.Backpack:GetChildren() <= 0 then
+        return
+        Library:Notify("No Axes In inventory")
+    end;
+    
+    local Slot = slotnumber
+    repeat wait() until game.ReplicatedStorage.LoadSaveRequests.ClientMayLoad:InvokeServer(game.Players.LocalPlayer)
+    game.Players.LocalPlayer.Character.Head:Destroy()
+    wait(2.5)
+    dupe_load(Slot)
+    game:GetService("ReplicatedStorage").LoadSaveRequests.RequestLoad:InvokeServer(Slot,game:GetService("Players").LocalPlayer)
+    repeat task.wait() until game:GetService("Players").LocalPlayer.OwnsProperty.Value == true
+    repeat task.wait() until game:GetService("ReplicatedStorage").LoadSaveRequests.ClientMayLoad:InvokeServer(game:GetService("Players").LocalPlayer)
+    wait(0.5)
+  end
+  
+  function CountAllAxes()
+    local count = 0
+    if game.Players.LocalPlayer.Character:FindFirstChild("Tool") ~= nil then
+        if game.Players.LocalPlayer.Character("Tool") then
+            count = count + 1
+        end;
+    end;
+    
+    for i,v in next,game.Players.LocalPlayer.Backpack:GetChildren() do
+        if v:FindFirstChild("AxeClient") then
+            count = count + 1
+        end;
+    end;
+    Library:Notify("U Have "..count.." Axes in Backpack")
+  end;
+  
+  function BringTree()
+  tbs = game.Workspace.LogModels.ChildAdded:Connect(function(k)
+    if k:WaitForChild("Owner") and k.Owner.Value == game.Players.LocalPlayer then
+      if k:WaitForChild("TreeClass") and k.TreeClass.Value == Tree then
+        if k:WaitForChild("WoodSection") then
+          for i = 1,50 do
+            k.WoodSection.CFrame = old
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(k)
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(k)
+                    k.WoodSection.CFrame = old
+                    wait()
+          end;
+        end;
+      end;
+    end;
+    td = true
+  end)
+  for i = 1,Amount do
+    for i,v in next,game.Workspace:GetChildren() do
+      if v.Name == "TreeRegion" then
+        for i,b in next,v:GetChildren() do
+          if b.Name == "Model" then
+            if b:FindFirstChild("Owner") and b.Owner.Value == nil then
+              if b:FindFirstChild("TreeClass") and b.TreeClass.Value == Tree then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(b:FindFirstChild("WoodSection").CFrame.p)
+                found = b
+              end;
+            end;
+          end;
+        end;
+      end;
+    end;
+    treeadded = game.Workspace.LogModels.ChildAdded:Connect(function(added)
+      if added:FindFirstChild("Owner") and added.Owner.Value == game.Players.LocalPlayer then 
+        cut = added
+      end;
+    end)
+    repeat wait(0.1)
+    game:GetService("ReplicatedStorage").Interaction.RemoteProxy:FireServer(found.CutEvent,{["tool"] = game.Players.LocalPlayer.Character:FindFirstChild("Tool"),["faceVector"] = Vector3.new(1, 0, 0),["height"] = 0.32,["sectionId"] = 1,["hitPoints"] = HitPoints[game.Players.LocalPlayer.Character:FindFirstChild("Tool").ToolName.Value],["cooldown"] = 0.25837870788574,["cuttingClass"] = "Axe"})
+    until td
+    tb = false
+  end;
+  tbs:Disconnect()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = old
+  end;
+  
+  function SellLogs()
+    for i,v in next,game.Workspace.LogModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("TreeClass") then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.InnerWood.CFrame
+                wait(1)
+                if v.WoodSection then
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
+                    v.WoodSection.CFrame = CFrame.new(329.32608, -0.400000304, 81.903511, -0.997813523, 6.63771687e-08, 0.0660917461, 6.09548536e-08, 1, -8.40587262e-08, -0.0660917461, -7.98463233e-08, -0.997813523)
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v) 
+                    v.WoodSection.CFrame = CFrame.new(329.32608, -0.400000304, 81.903511, -0.997813523, 6.63771687e-08, 0.0660917461, 6.09548536e-08, 1, -8.40587262e-08, -0.0660917461, -7.98463233e-08, -0.997813523)
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v) 
+                end;
+            end;
+        end;
+    end;
+  end;
+  
+  function TeleportLog()
+    local oldpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    for i,v in next,game.Workspace.LogModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("TreeClass") then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.InnerWood.CFrame
+                wait(1)
+                if v.WoodSection then
+                    for i = 1,10 do
+                        repeat wait()
+                            game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
+                            v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                            v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                            game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v) 
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = oldpos
+                        until v.WoodSection.CFrame
+                    end;
+                end;
+            end;
+        end;
+    end;
+  end;
+  
+  function SellPlanks()
+    for i,v in next,game.Workspace.PlayerModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("TreeClass") then
+                if v.WoodSection then
+                    repeat wait()
+                        game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
+                        v.WoodSection.CFrame = CFrame.new(314.935028, -0.400000244, 83.7679901, -0.988571405, 5.90980207e-08, 0.150753364, 4.89930443e-08, 1, -7.0744008e-08, -0.150753364, -6.25496313e-08, -0.988571405)
+                        v.WoodSection.CFrame = CFrame.new(314.935028, -0.400000244, 83.7679901, -0.988571405, 5.90980207e-08, 0.150753364, 4.89930443e-08, 1, -7.0744008e-08, -0.150753364, -6.25496313e-08, -0.988571405)
+                        game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v) 
+                    until v.WoodSection.CFrame
+                end;
+            end;
+        end;
+    end;
+  end;
+  
+  function WOODClickToTP(val)
+    if val == false then ClickToSellMouseVal:Disconnect() return print("Func Off") end
+    ClickToSellMouseVal = Mouse.Button1Up:Connect(function()
+        local target = Mouse.Target.Parent
+        if target:FindFirstChild("Owner") and target:FindFirstChild("WoodSection") then
+            for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+            if Mouse.Target:FindFirstChild("Selection") then
+            else
+            local bob = Instance.new("SelectionBox", target.WoodSection)
+            bob.Name = "Selection"
+            bob.Adornee = bob.Parent
+            --a.AlwaysOnTop = true
+            bob.SurfaceTransparency = 0.75
+            bob.LineThickness = 0.02
+            bob.SurfaceColor3 = Color3.fromRGB(0,0,0)
+            bob.Color3 = Color3.fromRGB(255,0,0)
+            end
+            end
+    end
+    end)
+  end
+  
+  function TeleportItems()
+    local ItemType = ItemType3
+    local Cords = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    
+    for i,v in next,game.Workspace.PlayerModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players[plrselected.Name] then
+            if v:FindFirstChild("Type") and v.Type.Value == ItemType or v:FindFirstChild("TreeClass") and v.TreeClass.Value == ItemType or v:FindFirstChild("ItemName") and v.ItemName.Value == ItemType or v:FindFirstChild("PurchasedBoxItemName") and v.PurchasedBoxItemName.Value == ItemType or v:FindFirstChild(ItemType) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Main.CFrame
+                wait(1)
+                if not v.PrimaryPart then
+                    v.PrimaryPart = v:FindFirstChildOfClass("Part")
+                end;
+                
+                for i = 1,30 do
+                    game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
+                    v:SetPrimaryPartCFrame(Cords + Vector3.new(0, 5, 0))
+                    task.wait(0)
+                end;
+            end;
+        end;
+    end;
+  end;
+  
+  function SpookMode(value)
+    game.Lighting.Spook.Value = value
+  end;
+  
+  function VehicleSpeed(value)
+    for i,v in next,game.Workspace.PlayerModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("Type") and v.Type.Value == "Vehicle" then
+                if v:FindFirstChild("DriveSeat") then
+                    v.Configuration.MaxSpeed.Value = value
+                end;
+            end;
+        end;
+    end;
+  end;
+  
+  function UnFlipVehicle()
+    game.Players.LocalPlayer.Character.Humanoid.SeatPart.Parent:SetPrimaryPartCFrame(game.Players.LocalPlayer.Character.Humanoid.SeatPart.CFrame * CFrame.Angles(math.rad(180),0,0))
+  end;
+  
+  function Freeland()
+      for i,v in next, game:GetService("Workspace").Properties:GetChildren() do
+          if v:FindFirstChild("Owner") and v.Owner.Value == nil then
+          game:GetService("ReplicatedStorage").PropertyPurchasing.ClientPurchasedProperty:FireServer(v,v.OriginSquare.Position)
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,2,0)
+          break
+          end
+      end
+  end
+  
+  function Maxland()
+    for i,v in next,game.Workspace.Properties:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            trueig = v trueig2 = v.OriginSquare plot = v,maxid1,pointoftheland,trueig2 function maxid1(pointoftheland)  game.ReplicatedStorage.PropertyPurchasing.ClientExpandedProperty:FireServer(trueig,pointoftheland) end
+            maxlandakllplots = trueig2.Position maxid1(CFrame.new(maxlandakllplots.X + 40, maxlandakllplots.Y, maxlandakllplots.Z),plot)maxid1(CFrame.new(maxlandakllplots.X + 40, maxlandakllplots.Y, maxlandakllplots.Z),plot)maxid1(CFrame.new(maxlandakllplots.X - 40, maxlandakllplots.Y, maxlandakllplots.Z))maxid1(CFrame.new(maxlandakllplots.X, maxlandakllplots.Y, maxlandakllplots.Z + 40))maxid1(CFrame.new(maxlandakllplots.X, maxlandakllplots.Y, maxlandakllplots.Z - 40))maxid1(CFrame.new(maxlandakllplots.X + 40, maxlandakllplots.Y, maxlandakllplots.Z + 40))maxid1(CFrame.new(maxlandakllplots.X + 40, maxlandakllplots.Y, maxlandakllplots.Z - 40))maxid1(CFrame.new(maxlandakllplots.X - 40, maxlandakllplots.Y, maxlandakllplots.Z + 40))maxid1(CFrame.new(maxlandakllplots.X - 40, maxlandakllplots.Y, maxlandakllplots.Z - 40))maxid1(CFrame.new(maxlandakllplots.X + 80, maxlandakllplots.Y, maxlandakllplots.Z))maxid1(CFrame.new(maxlandakllplots.X - 80, maxlandakllplots.Y, maxlandakllplots.Z))maxid1(CFrame.new(maxlandakllplots.X, maxlandakllplots.Y, maxlandakllplots.Z + 80))maxid1(CFrame.new(maxlandakllplots.X, maxlandakllplots.Y, maxlandakllplots.Z - 80))maxid1(CFrame.new(maxlandakllplots.X + 80, maxlandakllplots.Y, maxlandakllplots.Z + 80))maxid1(CFrame.new(maxlandakllplots.X + 80, maxlandakllplots.Y, maxlandakllplots.Z - 80))maxid1(CFrame.new(maxlandakllplots.X - 80, maxlandakllplots.Y, maxlandakllplots.Z + 80))maxid1(CFrame.new(maxlandakllplots.X - 80, maxlandakllplots.Y, maxlandakllplots.Z - 80))maxid1(CFrame.new(maxlandakllplots.X + 40, maxlandakllplots.Y, maxlandakllplots.Z + 80))maxid1(CFrame.new(maxlandakllplots.X - 40, maxlandakllplots.Y, maxlandakllplots.Z + 80))maxid1(CFrame.new(maxlandakllplots.X + 80, maxlandakllplots.Y, maxlandakllplots.Z + 40))maxid1(CFrame.new(maxlandakllplots.X + 80, maxlandakllplots.Y, maxlandakllplots.Z - 40))maxid1(CFrame.new(maxlandakllplots.X - 80, maxlandakllplots.Y, maxlandakllplots.Z + 40))maxid1(CFrame.new(maxlandakllplots.X - 80, maxlandakllplots.Y, maxlandakllplots.Z - 40))maxid1(CFrame.new(maxlandakllplots.X + 40, maxlandakllplots.Y, maxlandakllplots.Z - 80))maxid1(CFrame.new(maxlandakllplots.X - 40, maxlandakllplots.Y, maxlandakllplots.Z - 80))
+    end
+  end
+  end
+  
+  function LoadSlot()
+    game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(SlotValue,game.Players.LocalPlayer)
+  end;
+  
+  function SaveSlot()
+    game.ReplicatedStorage.LoadSaveRequests.RequestSave:InvokeServer(SlotValue, game.Players.LocalPlayer)
+  end;
+  
+  function SellPropertySoldSign()
+      for i,v in next, game:GetService("Workspace").PlayerModels:GetChildren() do
+          if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+              if v:FindFirstChild("ItemName") and v.ItemName.Value == "PropertySoldSign" then
+                  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Main.CFrame.p) + Vector3.new(0,0,2)
+                  game:GetService("ReplicatedStorage").Interaction.ClientInteracted:FireServer(v,"Take down sold sign")
+                  for i = 1,30 do
+                      game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(v)
+                      v.Main.CFrame = CFrame.new(314.54, -0.5, 86.823)
+                      task.wait()
+                  end
+              end
+          end
+      end
+  end
+  
+  function FindUnit()
+    for i,v in next,game.Workspace.PlayerModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("TreeClass") and v.TreeClass.Value == Tree then
+                if v:FindFirstChild("WoodSection") and v.WoodSection.Size ~= Vector3.new(1,1,1) then
+                    return v
+                end;
+            end;
+        end;
+    end;
+  end;
+  
+  thingo69 = game.Workspace.PlayerModels.ChildAdded:Connect(function(v1)
+    local oldpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    if v1:WaitForChild("Owner") and v1.Owner.Value == game.Players.LocalPlayer then
+        if v1:WaitForChild("Type") and v1.Type.Value == "Blueprint" then
+            local getwood = FindUnit()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = getwood.WoodSection.CFrame
+            for i = 1,24 do
+                game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(getwood)
+                FindUnit().WoodSection.CFrame = v1.Main.CFrame
+                game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(getwood)
+                FindUnit().WoodSection.CFrame = v1.Main.CFrame
+            end;
+        end;
+    end;
+  end)
+
+  local Players = game:GetService("Players")
+  local exec = false
+  local TPToWPorPLR = true
+  local CuttingTree = false
+  local IsStandingAPlank = false
+  local FlyKeyToggleNotifSent = false
+  local GetTreeAmount
+  local SelectedTreeType
+  local SelectedTree
+  local TreeAdded
+  local OldPos
+  local TreeChopped = false
+  local AbortGetTree = false
+  local ClickToSell = false
+  local ClickToSellMouseVal
+  local Pllayyers = game:GetService("Players")
+  local Mouse = game.Players.LocalPlayer:GetMouse()
+  local ItemToBuy
+  local AutoBuyAmount = 1
+  local SelectedShopCounter
+  local OldMoneyVal
+  local ShopIDS = {["WoodRUs"] = 7,["FurnitureStore"] = 8,["FineArt"] = 11,["CarStore"] = 9,["LogicStore"] = 12,["ShackShop"] = 10}
+  local AutoBuyItemAdded
+  local TotalPrice
+  local AbortAutoBuy = false
+  local SlotNumber
+  local WLPlayerAdded
+  local BLPlayerAdded
+  local AutoBlacklistAll = false
+  local AutoWhitelistAll = false
+  local SelectedWipeOption
+  local VehicleSpeed
+  local VehicleSpawnerVal
+  local SelectedSpawnColor = nil
+  local VehicleRespawnedColor
+  local RespawnedCar
+  local AbortVehicleSpawner = false
+  local SelectedSpawnPad
+  local SelectedWireType
+  local SelectedWire
+  local Night = false
+  local Day = false
+  local LoopDestroyShopItems = false
+  local LeakedItems = false
+  local LIF
+  local AxeDupeAmount
+  local AbortAxeDupe
+  local LoopDupeAxe = false
+  local EmpyPlot
+  local SlotToDupe
+  local DupeAmount
+  local SelfDupeTable = {}
+  local AbortDupe = false
+  local FlySpeed = 200
+  local flystate = false
+  local AFKVal
+  local BaseDropOwner
+  local BaseDropType
+  local AbortItemTP = false
+  local Cords
+  local CustomDragger = false
+  local FLYING = false
+  local QEfly = true
+  local iyflyspeed = 1
+  local vehicleflyspeed = 1
+  local WayPointPart;
+  local Player = game.Players.LocalPlayer
+  local GetChar = function()
+    if Player.Character == nil then
+        repeat task.wait() until Player.Character ~= nil
+        return Player.Character
+    else
+        return Player.Character
+    end
+  end
+  local AutoBlacklistAll = false
+  local AutoWhitelistAll = false
+  local Start = os.clock();
+  local FlyKeyToggleNotifSent = false;
+  local Speed = nil;
+  local Jump = nil;
+  local WayPointPart = nil;
+  local FlyingEnabled = false
+  local maxspeed = 150
+  local CustomDragger = false;
+  local Night = false
+  local Day = false
+  
+  
+  
+  game.Lighting.Changed:connect(function()
+  if Day then
+  game.Lighting.TimeOfDay = "12:00:00"
+  elseif Night then
+  game.Lighting.TimeOfDay = "24:00:00"
+  
+  end
+  end)
+  
+  
+  function walkspeed()
+    game.Players.LocalPlayer.Character.Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = getgenv().Speed
+    end)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = getgenv().Speed
+    end
+  
+  function jumppower()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = getgenv().Jump
+    end
+  
+  function GetChar()
+    local Player = game.Players.LocalPlayer
+    if Player.Character == nil then
+        repeat task.wait() until Player.Character ~= nil
+        return Player.Character
+    else
+        return Player.Character
+    end
+  end
+  
+  
+  function BetterFly()
+  repeat wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+  local mouse = game.Players.LocalPlayer:GetMouse()
+  repeat wait() until mouse
+  local plr = game.Players.LocalPlayer
+  local torso = plr.Character.Head
+  local flying = false
+  local deb = true
+  local ctrl = {f = 0, b = 0, l = 0, r = 0}
+  local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+  local speed = 5000
+  
+  function Fly()
+  local bg = Instance.new("BodyGyro", torso)
+  bg.P = 9e4
+  bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+  bg.cframe = torso.CFrame
+  local bv = Instance.new("BodyVelocity", torso)
+  bv.velocity = Vector3.new(0,0.1,0)
+  bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+  repeat wait()
+  plr.Character.Humanoid.PlatformStand = true
+  if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+  speed = maxspeed
+  elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+    speed = 0
+  end
+  if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+  bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+  lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+  elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+  bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*0.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+  else
+  bv.velocity = Vector3.new(0,0,0)
+  end
+  bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*speed/maxspeed),0,0)
+  until not flying
+  ctrl = {f = 0, b = 0, l = 0, r = 0}
+  lastctrl = {f = 0, b = 0, l = 0, r = 0}
+  speed = 0
+  plr.Character.Humanoid.PlatformStand = false
+  end
+  mouse.KeyDown:connect(function(key)
+  if key:lower() == "q" and FlyingEnabled == true then
+  if flying then flying = false
+  else
+  flying = true
+  Fly()
+  end
+  elseif key:lower() == "w" then
+  ctrl.f = 1
+  elseif key:lower() == "s" then
+  ctrl.b = -1
+  elseif key:lower() == "a" then
+  ctrl.l = -1
+  elseif key:lower() == "d" then
+  ctrl.r = 1
+  end
+  end)
+  mouse.KeyUp:connect(function(key)
+  if key:lower() == "w" then
+  ctrl.f = 0
+  elseif key:lower() == "s" then
+  ctrl.b = 0
+  elseif key:lower() == "a" then
+  ctrl.l = 0
+  elseif key:lower() == "d" then
+  ctrl.r = 0
+  end
+  end)
+  Fly()
+  end
+  game.Players.LocalPlayer.CharacterAdded:Connect(BetterFly)
+  BetterFly()
+  
+  function noclip()
+    Clip = false
+    local function Nocl()
+        if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+            for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+                if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+                    v.CanCollide = false
+                end
+            end
+        end
+        wait(0.21) -- basic optimization
+    end
+    Noclip = game:GetService('RunService').Stepped:Connect(Nocl)
+  end
+  
+  function clip()
+    if Noclip then Noclip:Disconnect() end
+    Clip = true
+  end
+  
+  
+  function Dragger()
+    game.Workspace.ChildAdded:connect(function(a)
+        if a.Name == "Dragger" then
+            local bg = a:WaitForChild("BodyGyro")
+            local bp = a:WaitForChild("BodyPosition")
+            repeat
+                if CustomDragger then
+                    task.wait()
+                    bp.P = 120000
+                    bp.D = 1000
+                    bp.maxForce = Vector3.new(math.huge,math.huge,math.huge)
+                    bg.maxTorque = Vector3.new(math.huge, math.huge, math.huge)
+                else
+                    wait()
+                    bp.P = 10000
+                    bp.D = 800
+                    bp.maxForce = Vector3.new(17000, 17000, 17000)
+                    bg.maxTorque = Vector3.new(200, 200, 200)
+                end
+            until not a
+        end
+    end)
+    end
+  
+  
+  function clicktp()
+    if _G.Velocity == nil then
+        _G.Velocity = true
+  
+        local player = game:GetService("Players").LocalPlayer
+        local UserInputService = game:GetService("UserInputService")
+            --Wanted to avoid using mouse instance, but UIS^ is very tedious to get mouse hit position
+        local mouse = player:GetMouse()
+  
+        --Waits until the player's mouse is found
+        repeat wait() until mouse
+  
+        UserInputService.InputBegan:Connect(function(input, gameProcessed)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                --Only click teleport if the toggle is enabled
+                if _G.Velocity and UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+                    player.Character:MoveTo(Vector3.new(mouse.Hit.x, mouse.Hit.y, mouse.Hit.z))
+                end
+            end
+        end)
+    else
+        _G.Velocity = not _G.Velocity
+    end
+  end
+  
+  function flashlight(arg)
+    if arg == "on" then
+        local flashlight = Instance.new("PointLight", game.Players.LocalPlayer.Character.Head)
+        flashlight.Name = "Flashlight"
+        flashlight.Color = Color3.new(1, 1, 1)
+        flashlight.Range = 100
+        flashlight.Brightness = 10
+        flashlight.Shadows = true
+    elseif arg == "off" then
+        game.Players.LocalPlayer.Character.Head.Flashlight:Destroy()
+    end
+  end
+  
+  
+  
+  local AllPlayers = {"Select Player"}
+  for i,v in next,game.Players:GetPlayers() do
+  if not table.find(AllPlayers,v.Name) then
+  table.insert(AllPlayers,v.Name)
+  end
+  end
+  
+  
+  function TeleportToPlayer()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[plrselected.Name].Character.HumanoidRootPart.CFrame
+  end;
+  
+  function TeleportToBase()
+    game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    wait(0.1)
+    for i,v in next,game.Workspace.Properties:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players[plrselected.Name] then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame
+            game.Players.LocalPlayer.Character.Humanoid.Jump = true
+            wait(0.1)
+        end
+    end
+  end
+  
+  function set_waypoint()
+    local char = GetChar()
+    local Player = game.Players.LocalPlayer
+    local mouse = Player:GetMouse()
+    local part = Instance.new("Part", workspace)
+    part.Anchored = true
+    part.CanCollide = false
+    part.Size = Vector3.new(1, 1, 1)
+  end
+  
+  function CreateWaypointPart()
+    for _,v in pairs(workspace:GetChildren()) do
+        if v.Name ==  "WaypointLocation" then
+            v:Destroy() 
+        end    
+    end    
+    WayPointPart = nil
+    local WayPointPart = Instance.new("Part")
+    WayPointPart.Parent = workspace
+    WayPointPart.Name = "WaypointLocation"
+    WayPointPart.Size = Vector3.new(1.5,1.5,1.5)
+    WayPointPart.Position = GetChar().HumanoidRootPart.Position
+    WayPointPart.BrickColor = BrickColor.new("White")
+    WayPointPart.Transparency = 0.5
+    WayPointPart.CanCollide = false
+    WayPointPart.Anchored = true
+    local BHA = Instance.new("BoxHandleAdornment")
+    BHA.Parent = WayPointPart
+    BHA.Adornee = WayPointPart
+    BHA.Name = "WayPointAdornment"
+    BHA.Size = WayPointPart.Size
+    BHA.AlwaysOnTop = true
+    BHA.ZIndex = 0
+    BHA.Transparency  = 0.3
+    BHA.Color = BrickColor.new("White")
+    
+    WayPointPart = WayPointPart 
+  end    
+  function remove_waypoint()
+    for _,v in pairs(workspace:GetChildren()) do
+        if v.Name ==  "WaypointLocation" then
+            v:Destroy() 
+        end    
+    end    
+  end
+  function tele_to_waypoint()
+    local char = GetChar()
+    local Player = game.Players.LocalPlayer
+    local mouse = Player:GetMouse()
+    local part = Instance.new("Part", workspace)
+    part.Anchored = true
+    part.CanCollide = false
+    part.Size = Vector3.new(1, 1, 1)
+    part.Position = WayPointPart.Position
+    local tween = game:GetService("TweenService"):Create(char.HumanoidRootPart, TweenInfo.new((char.HumanoidRootPart.Position - part.Position).Magnitude / 100, Enum.EasingStyle.Linear), {CFrame = part.CFrame})
+    tween:Play()
+    tween.Completed:Wait()
+    part:Destroy()
+  end
+  
+  
+  local plr = game.Players.LocalPlayer
+  
+  
+  local function getPlots()
+    local Properties = {}
+    for _, v in next, workspace.Properties:GetChildren() do
+        local Owner = v:FindFirstChild("Owner")
+        if Owner and Owner.Value == nil then
+            table.insert(Properties, v)
+        end
+    end
+    return Properties[#Properties]
+  end
+  
+  
+  
+  local propClient = plr.PlayerGui.PropertyPurchasingGUI.PropertyPurchasingClient
+  local propEnvironment = getsenv(propClient)
+  local oldPurchase = propEnvironment.enterPurchaseMode
+  getsenv(propClient).enterPurchaseMode = function(...)
+    if not skipLoading then
+        return oldPurchase(...)
+    end
+    setupvalue(propEnvironment.rotate, 3, 0)
+    setupvalue(oldPurchase, 10, getPlots())
+    return
+  end
+  
+  
+  
+  function LoadSlot(slot)
+    if not game:GetService("ReplicatedStorage").LoadSaveRequests.ClientMayLoad:InvokeServer(game:GetService("Players").LocalPlayer) then
+        print("Load Is On cooldown Please Wait")
+        repeat task.wait() until  game:GetService("ReplicatedStorage").LoadSaveRequests.ClientMayLoad:InvokeServer(game:GetService("Players").LocalPlayer)
+    end
+    local skipLoading = skil.skipLoading
+    game:GetService("ReplicatedStorage").LoadSaveRequests.RequestLoad:InvokeServer(slot,game.Players.LocalPlayer)
+    if game:GetService("Players").LocalPlayer.CurrentSaveSlot.Value == slot then
+        print("Loaded Slot "..slot)
+    end
+  end
+  
+  
+  function dupe_load(slot)
+    if not game:GetService("ReplicatedStorage").LoadSaveRequests.ClientMayLoad:InvokeServer(game:GetService("Players").LocalPlayer) then
+        print("Load Is On cooldown Please Wait")
+        repeat task.wait() until  game:GetService("ReplicatedStorage").LoadSaveRequests.ClientMayLoad:InvokeServer(game:GetService("Players").LocalPlayer)
+    end
+    if slot then
+        skipLoading = true
+    end
+    game:GetService("ReplicatedStorage").LoadSaveRequests.RequestLoad:InvokeServer(slot,game.Players.LocalPlayer)
+    if game:GetService("Players").LocalPlayer.CurrentSaveSlot.Value == slot then
+        print("Loaded Slot "..slot)
+    end
+  end
+  
+  
+  function SellSoldSign()
+    for i,v in next, game:GetService("Workspace").PlayerModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("ItemName") and v.ItemName.Value == "PropertySoldSign" then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Main.CFrame.p) + Vector3.new(0,0,2)
+                game:GetService("ReplicatedStorage").Interaction.ClientInteracted:FireServer(v,"Take down sold sign")
+                for i = 1,30 do
+                    game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(v)
+                    v.Main.CFrame = CFrame.new(314.54, -0.5, 86.823)
+                    task.wait()
+                end
+            end
+        end
+    end
+    end
+    
+  function FreeLand()
+  for i,v in next, game:GetService("Workspace").Properties:GetChildren() do
+    if v:FindFirstChild("Owner") and v.Owner.Value == nil then
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientPurchasedProperty:FireServer(v,v.OriginSquare.Position)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,2,0)
+        break
+    end
+  end
+  end
+  
+  function SetPermissions(Val)
+  for i,v in pairs(game:GetService("Players"):GetChildren()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Visit",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"PlaceStructure",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"MoveStructure",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Destroy",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Drive",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Sit",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Interact",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Grab",Val)
+        game:GetService("ReplicatedStorage").Interaction.UpdateUserSettings:FireServer("UserPermission",v.UserId,"Save",Val)
+    end
+  end
+  end
+  
+  function AutoWhiteList()
+  SetPermissions(true)
+  if AutoWhitelistAll == true then
+  WLPlayerAdded = game.Players.ChildAdded:Connect(function(n)
+    if n.Name ~= game.Players.LocalPlayer.Name then
+        SetPermissions(true)
+    end
+  end)
+  else
+    WLPlayerAdded:Disconnect()
+  end
+  end
+  
+  function AutoBlacklist()
+    SetPermissions(false)
+    if AutoBlacklistAll == true then
+    WLPlayerAdded = game.Players.ChildAdded:Connect(function(n)
+        if n.Name ~= game.Players.LocalPlayer.Name then
+            SetPermissions(false)
+        end
+    end)
+    else
+        BLPlayerAdded:Disconnect()
+    end
+    end
+  
+  function MaxLand()
+  for s,d in pairs(workspace.Properties:GetChildren()) do
+    if d:FindFirstChild("Owner") and d:FindFirstChild("OriginSquare") and d.Owner.Value == game.Players.LocalPlayer then
+        local PlotPos = d.OriginSquare.Position
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40, PlotPos.Y, PlotPos.Z))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40, PlotPos.Y, PlotPos.Z))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z + 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z - 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z + 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z - 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z + 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z - 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z + 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z - 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z + 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z - 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z + 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z - 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z + 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z + 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z + 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z - 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z + 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z - 40))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z - 80))
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z - 80))
+    end
+  end
+  end
+  
+  
+  
+  
+  
+  
+  function VehicleSpeed(Val)
+    for i,v in next, game:GetService("Workspace").PlayerModels:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+            if v:FindFirstChild("Type") and v.Type.Value == "Vehicle" then
+                if v:FindFirstChild("Configuration") then
+                    v.Configuration.MaxSpeed.Value = Val
+                end
+            end
+        end
+    end
+    end
+  
+  Players = game.Players
+  IYMouse = Players.LocalPlayer:GetMouse()
+  speaker = Players.LocalPlayer
+  QEfly = true
+  iyflyspeed = 1
+  vehicleflyspeed = 1
+  
+  function getRoot(char)
+    local rootPart = char:FindFirstChild('HumanoidRootPart') or char:FindFirstChild('Torso') or char:FindFirstChild('UpperTorso')
+    return rootPart
+  end
+  function sFLY(vfly)
+    repeat wait() until Players.LocalPlayer and Players.LocalPlayer.Character and getRoot(Players.LocalPlayer.Character) and Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    repeat wait() until IYMouse
+    if flyKeyDown or flyKeyUp then flyKeyDown:Disconnect() flyKeyUp:Disconnect() end
+  
+    local T = getRoot(Players.LocalPlayer.Character)
+    local CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+    local lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+    local SPEED = 0
+  
+    local function FLY()
+        FLYING = true
+        local BG = Instance.new('BodyGyro')
+        local BV = Instance.new('BodyVelocity')
+        BG.P = 9e4
+        BG.Parent = T
+        BV.Parent = T
+        BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+        BG.cframe = T.CFrame
+        BV.velocity = Vector3.new(0, 0, 0)
+        BV.maxForce = Vector3.new(9e9, 9e9, 9e9)
+        task.spawn(function()
+            repeat wait()
+                if not vfly and Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+                    Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = true
+                end
+                if CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 or CONTROL.Q + CONTROL.E ~= 0 then
+                    SPEED = 50
+                elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 or CONTROL.Q + CONTROL.E ~= 0) and SPEED ~= 0 then
+                    SPEED = 0
+                end
+                if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.F + CONTROL.B) ~= 0 or (CONTROL.Q + CONTROL.E) ~= 0 then
+                    BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (CONTROL.F + CONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.F + CONTROL.B + CONTROL.Q + CONTROL.E) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+                    lCONTROL = {F = CONTROL.F, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+                elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.F + CONTROL.B) == 0 and (CONTROL.Q + CONTROL.E) == 0 and SPEED ~= 0 then
+                    BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lCONTROL.F + lCONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lCONTROL.L + lCONTROL.R, (lCONTROL.F + lCONTROL.B + CONTROL.Q + CONTROL.E) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+                else
+                    BV.velocity = Vector3.new(0, 0, 0)
+                end
+                BG.cframe = workspace.CurrentCamera.CoordinateFrame
+            until not FLYING
+            CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+            lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+            SPEED = 0
+            BG:Destroy()
+            BV:Destroy()
+            if Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+                Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+            end
+        end)
+    end
+    flyKeyDown = IYMouse.KeyDown:Connect(function(KEY)
+        if KEY:lower() == 'w' then
+            CONTROL.F = (vfly and vehicleflyspeed or iyflyspeed)
+        elseif KEY:lower() == 's' then
+            CONTROL.B = - (vfly and vehicleflyspeed or iyflyspeed)
+        elseif KEY:lower() == 'a' then
+            CONTROL.L = - (vfly and vehicleflyspeed or iyflyspeed)
+        elseif KEY:lower() == 'd' then
+            CONTROL.R = (vfly and vehicleflyspeed or iyflyspeed)
+        elseif QEfly and KEY:lower() == 'e' then
+            CONTROL.Q = (vfly and vehicleflyspeed or iyflyspeed)*2
+        elseif QEfly and KEY:lower() == 'q' then
+            CONTROL.E = -(vfly and vehicleflyspeed or iyflyspeed)*2
+        end
+        pcall(function() workspace.CurrentCamera.CameraType = Enum.CameraType.Track end)
+    end)
+    flyKeyUp = IYMouse.KeyUp:Connect(function(KEY)
+        if KEY:lower() == 'w' then
+            CONTROL.F = 0
+        elseif KEY:lower() == 's' then
+            CONTROL.B = 0
+        elseif KEY:lower() == 'a' then
+            CONTROL.L = 0
+        elseif KEY:lower() == 'd' then
+            CONTROL.R = 0
+        elseif KEY:lower() == 'e' then
+            CONTROL.Q = 0
+        elseif KEY:lower() == 'q' then
+            CONTROL.E = 0
+        end
+    end)
+    FLY()
+  end
+  
+  function NOFLY()
+    FLYING = false
+    if flyKeyDown or flyKeyUp then flyKeyDown:Disconnect() flyKeyUp:Disconnect() end
+    if Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+        Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+    end
+    pcall(function() workspace.CurrentCamera.CameraType = Enum.CameraType.Custom end)
+  end
+  
+  function FlipVehcile()
+  local player = game.Players.LocalPlayer
+  local humanoid = player.Character.Humanoid
+  if humanoid.Seated then
+  local CurrentSeat = player.Character.Humanoid.SeatPart
+    if CurrentSeat and CurrentSeat.Parent.Type.Value == "Vehicle" then
+     CurrentSeat.CFrame = CurrentSeat.CFrame * CFrame.Angles(math.rad(-180), 0, 0) + Vector3.new(0, 5, 0),1000,CurrentSeat.CFrame
+  end
+  end
+  end
+  
+  function count_backpack()
+    local backpack = game.Players.LocalPlayer.Backpack:GetChildren()
+    local count = 0
+    for i,v in pairs(backpack) do
+        count = count + 1
+    end
+    return count
+  end
+
+  function is_in_frame(screenpos, frame)
+  local xPos = frame.AbsolutePosition.X
+  local yPos = frame.AbsolutePosition.Yisinframe
+  
+  local xSize = frame.AbsoluteSize.X
+  local ySize = frame.AbsoluteSize.Y
+  
+  local check1 = screenpos.X >= xPos and screenpos.X <= xPos + xSize
+  local check2 = screenpos.X <= xPos and screenpos.X >= xPos + xSize
+  
+  local check3 = screenpos.Y >= yPos and screenpos.Y <= yPos + ySize
+  local check4 = screenpos.Y <= yPos and screenpos.Y >= yPos + ySize
+  
+  local finale = (check1 and check3) or (check2 and check3) or (check1 and check4) or (check2 and check4)
+  
+  return finale
+  end
+  
+  local Cords;
+  function SetCords()
+  if game.Workspace:FindFirstChild("jore") then game.Workspace.jore:Destroy() end
+  local CordsPart = Instance.new("Part",game.Workspace)
+  CordsPart.CanCollide = false
+  CordsPart.Anchored = true
+  CordsPart.Shape = Enum.PartType.Block
+  CordsPart.BrickColor = BrickColor.new("Really black")
+  CordsPart.Transparency = 0.40
+  CordsPart.Size = Vector3.new(1.5, 1.5, 1.5)
+  CordsPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+  CordsPart.Material = Enum.Material.Neon
+  CordsPart.Name = "jore"
+  Cords = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+  end
+  
+  
+  
+  function SelectionTp()
+    local Old = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    for i,v in next, game.Workspace.PlayerModels:GetDescendants() do
+        if v:FindFirstChild("Selection") then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v:FindFirstChild("Selection").Parent.CFrame.p) * CFrame.new(5,0,0)
+            
+            task.wait(0.1)
+    
+            for a = 1,25,1 do
+                game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(v.Parent)
+                v.Selection.Parent.CFrame = Cords
+                task.wait()
+            end
+        end
+    end
+    task.wait(0.5)
+    _G.TRUEORNOTTRUE = true
+    if _G.TRUEORNOTTRUE == true then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Old
+    end
+    _G.Autodeselect = true
+    if _G.Autodeselect == true then
+        for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+            if v:FindFirstChild("Main") then
+                if v.Main:FindFirstChild("Selection") then
+                v.Main.Selection:Destroy()
+            end
+        end
+    end
+    end
+    end
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function GetChar()
+    local Player = game.Players.LocalPlayer
+    if Player.Character == nil then
+        repeat task.wait() until Player.Character ~= nil
+        return Player.Character
+    else
+        return Player.Character
+    end
+  end
+  
+  
+  
+  function remove_waypoint()
+    game.Workspace:FindFirstChild("jore"):Destroy()
+  end
+  
+  
+  function tele_to_waypoint()
+    local Char = GetChar()
+    local Humanoid = Char:FindFirstChildOfClass("Humanoid")
+    local Root = Char:FindFirstChild("HumanoidRootPart")
+    local Waypoint = game.Workspace:FindFirstChild("jore")
+    if Waypoint then
+        local WaypointPos = Waypoint.Position
+        local RootPos = Root.Position
+        local Distance = (WaypointPos - RootPos).magnitude
+        local TpTime = Distance / Humanoid.WalkSpeed
+        local TpPos = CFrame.new(WaypointPos)
+        Root.CFrame = TpPos
+        task.wait(TpTime)
+    end
+  end
+  
+  
+  local ClickTp = false
+  local ClickToSellMouseVal;
+  local Betterselection;
+  local Mouse = game.Players.LocalPlayer:GetMouse()
+  
+  
+  
+  function selectionv2(PLY)
+    if _G.selectionv2 == false then Betterselection:Disconnect() return print("Func Off") end
+      Betterselection = Mouse.Button1Up:Connect(function()
+        for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+        if v:FindFirstChild("Main") then
+        if v.Main.Parent.Name == Mouse.Target.Parent.Name then
+        if Mouse.Target.Parent:FindFirstChild("Owner") and tostring(v.Owner.Value) == PLY then
+        if v.Main:FindFirstChild("Selection") then
+        else
+        local bobv2 = Instance.new("SelectionBox", v.Main)
+        bobv2.Name = "Selection"
+        bobv2.Adornee = bobv2.Parent
+        --a.AlwaysOnTop = true
+        bobv2.SurfaceTransparency = .75
+        bobv2.LineThickness = 0.02
+        bobv2.SurfaceColor3 = Color3.fromRGB(0,0,0)
+        bobv2.Color3 = Color3.fromRGB(255,0,0)
+      end
+        
+      end
+    end
+    end
+    end
+    --end
+    end)
+    end
+  
+  
+  function ClickToTP()
+    if ClickTp == false then ClickToSellMouseVal:Disconnect() return print("Func Off") end
+    ClickToSellMouseVal = Mouse.Button1Up:Connect(function()
+        local target = Mouse.Target.Parent
+        if target:FindFirstChild("Owner") and target:FindFirstChild("Main") then
+           for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+            if Mouse.Target:FindFirstChild("Selection") then
+            else
+            local bob = Instance.new("SelectionBox", target.Main)
+            bob.Name = "Selection"
+            bob.Adornee = bob.Parent
+            --a.AlwaysOnTop = true
+            bob.SurfaceTransparency = 0.75
+            bob.LineThickness = 0.02
+            bob.SurfaceColor3 = Color3.fromRGB(0,0,0)
+            bob.Color3 = Color3.fromRGB(255,0,0)
+            end
+           end
+    end
+    end)
+    end
+  
+    function WOODselectionv2(PLY, val)
+        if val == false then Betterselection:Disconnect() return print("Test") end
+        Betterselection = Mouse.Button1Up:Connect(function()
+        for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+            local target = Mouse.Target.Parent
+            if v:FindFirstChild("WoodSection") then
+                if v.TreeClass.Value == Mouse.Target.Parent.TreeClass.Value then
+                    if Mouse.Target.Parent:FindFirstChild("Owner") and tostring(v.Owner.Value) == PLY then
+                    if v.WoodSection:FindFirstChild("Selection") then
+                        else
+                        local bobv2 = Instance.new("SelectionBox", v.WoodSection)
+                        bobv2.Name = "Selection"
+                        bobv2.Adornee = bobv2.Parent
+                        bobv2.SurfaceTransparency = 0.75
+                        bobv2.LineThickness = 0.02
+                        bobv2.SurfaceColor3 = Color3.fromRGB(0,0,0)
+                        bobv2.Color3 = Color3.fromRGB(5,0,0)
+                        end
+                    end
+                end
+            end
+        end
+        --end
+        end)
+    end
+    
+    
+    
+    
+    function WoodSelectionTp(direction,tp)
+        if direction == "Sideways" then
+        OldHumanCFrameSpot = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+        OldWoodPlace1 = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame * CFrame.Angles(math.rad(90), 0, 0) + Vector3.new(0, -5, 0),1000,game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+        elseif direction == "Upwards" then	
+            OldHumanCFrameSpot = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+            OldWoodPlace1 = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+        end
+        for i,v in next, game.Workspace.PlayerModels:GetDescendants() do
+            if v:FindFirstChild("Selection") then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v:FindFirstChild("Selection").Parent.CFrame.p) * CFrame.new(5,0,0)
+                if not v.Parent.PrimaryPart then
+                v.Parent.PrimaryPart = v:FindFirstChild("Selection").Parent
+                end
+                
+                for a = 1,25,1 do
+                    game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(v.Parent)
+                    v.Selection.Parent.CFrame = Cords
+                    task.wait()
+                end
+                if _G.aftertpdeselect == true then
+                    v.Selection:Destroy()
+                end
+            end
+        end
+        task.wait(0.5)
+        if tp == true then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = OldHumanCFrameSpot
+    
+        if _G.Autodeselect2 == true then
+            for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+                if v:FindFirstChild("WoodSection") then
+                    if v.WoodSection:FindFirstChild("Selection") then
+                    v.WoodSection.Selection:Destroy()
+                end
+            end
+        end
+    end
+    end
+    end
+  
+
+  local TeleportReliablity = 30
+  local OldCharacterPos;
+  
+  BringObject = function(Model, Position, TeleportSettings)
+    if not Player.Character then return end
+    
+    local Character = Player.Character
+    
+    local ToTeleportBeforeBringing = TeleportSettings[1]
+    local ToTeleportAfterBringing  = TeleportSettings[2]
+    
+    if not Model.PrimaryPart then
+        Model.PrimaryPart = Model:FindFirstChild("Main") or Model:FindFirstChild("WoodSection") 
+    end    
+    
+    if not Model.PrimaryPart then return end
+    
+    if ToTeleportBeforeBringing then
+        Character.HumanoidRootPart.Anchored = true
+        for i = 1,10 do
+            Character.Humanoid.Sit = false
+            if (Character.HumanoidRootPart.Position - Model.PrimaryPart.Position).Magnitude > 17 then
+                Character:SetPrimaryPartCFrame(CFrame.new(Model.PrimaryPart.Position + Vector3.new(5,3,5))) 
+            end
+            game:GetService("RunService").Stepped:Wait()
+        end
+        Character.HumanoidRootPart.Anchored = false
+    end
+    
+    for i = 1,TeleportReliablity do
+        if not Model.PrimaryPart then break end
+        Character.Humanoid.Sit = false    
+            
+        game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(Model)
+        Model:SetPrimaryPartCFrame(Position)
+        game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(Model)
+        
+        for _,v in pairs(Model:GetChildren()) do
+            if v:IsA("BasePart") or v:IsA("Part") then
+                v.Velocity = Vector3.new(0,15,0)
+                v.RotVelocity = Vector3.new(0,0,0)
+            end    
+        end
+        game:GetService("RunService").Stepped:Wait()
+    end
+    
+    wait(0.1)
+    
+    if ToTeleportAfterBringing then
+        task.spawn(function()
+            for i = 1,10 do
+                Character:SetPrimaryPartCFrame(OldCharacterPos + Vector3.new(0,5,0))
+                Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+                Character.HumanoidRootPart.RotVelocity = Vector3.new(0,0,0)
+                task.wait()
+            end
+        end)
+    end    
+  end
+
+  local CancelActions;
+  
+  local ReplicatedStorage = game:GetService("ReplicatedStorage")
+  
+  local Counters = {
+    ["Thom"] = Vector3.new(268, 2, 67.4);
+    ["Bob"] = Vector3.new(260, 7.2, -2551);
+    ["Corey"] = Vector3.new(477, 2.4, -1722);
+    ["Jenny"] = Vector3.new(528, 2.4, -1459);
+    ["Timothy"] = Vector3.new(5238, -167.2, 740);
+    ["Lincoln"] = Vector3.new(4595, 6.2, -785);
+  }
+  
+  local StoreOwnerIDs = {
+    ["Thom"] = 7;
+    ["Bob"] = 10;
+    ["Corey"] = 8;
+    ["Jenny"] = 9;
+    ["Timothy"] = 11;
+    ["Lincoln"] = 12;
+  }
+    
+  local StoreOwnerPositions = {
+    ["Thom"] = Vector3.new(262.4, 2.99929, 70.3);
+    ["Bob"] = Vector3.new(255.351, 8.39809, -2553.31);
+    ["Corey"] = Vector3.new(472.8, 3.798523, -1716.7);
+    ["Jenny"] = Vector3.new(532.11, 3.798914, -1465.63);
+    ["Timothy"] = Vector3.new(5232.4, -166.201, 742.9);
+    ["Lincoln"] = Vector3.new(4591.8, 7.59853, -782.101);
+  }
+  
+  function GetPrice(Name)
+    if ReplicatedStorage.ClientItemInfo:FindFirstChild(Name) then
+        return ReplicatedStorage.ClientItemInfo[Name].Price.Value
+    else
+        print("Could not find Item")
+    end    
+  end 
+  
+  function GetItem(Name)
+    local Items = {}
+    for _,v in pairs(workspace.Stores:GetDescendants()) do
+        if v:IsA("StringValue") and v.Name == "BoxItemName" then
+            --if Name ~= "Wire" then
+                if v.Value == Name then
+                    table.insert(Items, v.Parent) 
+                end
+           -- elseif Name == "Wire" then
+                
+            --end    
+        end
+    end
+    return Items
+  end
+  
+  function GetClosestStoreOwner(BasePos)
+    local ClosestStoreOwner
+    local TargetDistance = math.huge
+    
+    for i,v in pairs(StoreOwnerPositions) do
+        Distance = (BasePos - v).Magnitude
+        if Distance < TargetDistance then
+            TargetDistance = Distance
+            ClosestStoreOwner = i
+        end
+    end
+    
+    return ClosestStoreOwner
+  end   
+  
+  function PurchaseItem(ID)
+    ReplicatedStorage.NPCDialog.PlayerChatted:InvokeServer({
+        ["Character"] = "",
+        ["Name"] = "",
+        ["ID"] = ID,
+        ["Dialog"] = ""
+    },"ConfirmPurchase")
+  end
+  
+  function BuyItem(Item,Amount,Position)
+    local ToBuyFrom
+    local MerchantID
+  AbortAutoBuy=false
+    local autotpback = game.Workspace.PlayerModels.ChildAdded:connect(function(v)
+    
+      v:WaitForChild('Owner', 60)
+      if v.Owner.Value == game.Players.LocalPlayer then
+
+        
+          for i = 1, 20 do
+              game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(v)
+              v:PivotTo(Position)
+              game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(v)
+              game["Run Service"].Heartbeat:wait()
+          end
+      end
+  end)
+    for i = 1,Amount do
+      if AbortAutoBuy==false then
+        if CancelActions then CancelActions = false return end
+        local Item = GetItem(Item)[1]
+        if Item== nil then
+    repeat
+      local Item = GetItem(Item)[1]
+      task.wait()
+    until Item~=nil
+
+  end
+            local ItemName = Item.BoxItemName.Value
+   
+            
+            if not ToBuyFrom then
+                ToBuyFrom = GetClosestStoreOwner(Item.Main.Position) 
+            end
+            
+            if not MerchantID then
+                for i,v in pairs(StoreOwnerIDs) do
+                    if i == ToBuyFrom then
+                        MerchantID = v 
+                    end    
+                end
+            end
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=Item.Main.CFrame
+             task.wait(0.1)
+
+            for i=1,30 do
+              game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(Item)
+              Item:PivotTo(CFrame.new(Counters[ToBuyFrom])+ Vector3.new(0,0.6,0))
+              game:GetService("ReplicatedStorage").Interaction.ClientIsDragging:FireServer(Item)
+            task.wait()
+            end
+            task.wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Counters[ToBuyFrom]) + Vector3.new(2,0,2)
+            repeat
+              if AbortAutoBuy==true then break end
+              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Counters[ToBuyFrom]) + Vector3.new(2,0,2)
+              PurchaseItem(MerchantID)
+              wait()
+          until Item.Owner.Value==game.Players.LocalPlayer and Item.Parent~="ShopItem"
+            
+          Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+          OrionLib:MakeNotification({
+            Name = "Xiyizi X",
+            Content = tostring(i).."/"..tostring(Amount).." "..ItemName.."'s Bought",
+            Image = "rbxassetid://10044538000",
+            Time = 5
+          })
+
+          print(tostring(i).."/"..tostring(Amount).." "..ItemName.."'s Bought")
+          end
+        end    
+        spawn(function()
+          pcall(function()
+            autotpback:Disconnect();
+            autotpback = nil;
+          end)
+      end)
+    end
+    
+    CancelActions = false
+  
+  
+  local ItemToBuy
+  local AmountToBuy = 1
+  function GetPrice(item, co)
+    local Price = 0
+    for i, v in next, game:GetService("ReplicatedStorage").ClientItemInfo:GetChildren() do
+        if v.Name == item and v:FindFirstChild("Price") then
+            Price = Price + v.Price.Value * co
+        end
+    end
+    return Price
+end
+  local ItemList = {}
+  for _,v in pairs(game:GetService("ReplicatedStorage").ClientItemInfo:GetChildren()) do
+    if v:IsA("Folder") then
+        for _,x in pairs(workspace.Stores:GetDescendants()) do -- check if you can purchase
+            if x.Name == "BoxItemName" then
+                if x.Value == v.Name and not table.find(ItemList, v.Name.. " = $" .. tostring(GetPrice(v.Name,1))) then
+                    table.insert(ItemList, v.Name.. " = $" .. tostring(GetPrice(v.Name,1)))
+                end    
+            end    
+        end    
+    end    
+  end
+  
+  local BuyListDropdown
+  
+  
+  
+  
+  local CheckIfWPPlaced = function()
+    if TPToWPorPLR == false then 
+        local WayPointPart = Instance.new("Part")
+        if not WayPointPart then 
+          OrionLib:MakeNotification({
+            Name = "Helcurt",
+            Content = "Please create waypoint",
+            Image = "rbxassetid://10044538000",
+            Time = 5
+          })
+          
+            return false 
+        end 
+    else
+        return true 
+    end    
+    
+    return true
+  end
+  
+  local GetWPLoc = function()
+    
+    if WayPointPart then
+        if TPToWPorPLR == false then -- wp
+            return WayPointPart.CFrame
+        else
+            return GetChar().Head.CFrame
+        end
+    else
+        return GetChar().Head.CFrame
+    end    
+  end    
+  
+  
+  function AntiAFK(Val)
+    if not Val then AFKVal:Disconnect() return end
+    AFKVal = game:GetService("Players").LocalPlayer.Idled:connect(function()
+        game:GetService("VirtualInputManager"):SendKeyEvent(true, "W", false, game)
+            wait()
+        game:GetService("VirtualInputManager"):SendKeyEvent(false, "W", false, game)
+    end)
+    end
+  
+  
+  
+  function Light(Val)
+    if Val == false then game.Players.LocalPlayer.Character.Head.PointLight:Destroy() return end
+    local PL = Instance.new("PointLight",game.Players.LocalPlayer.Character:FindFirstChild("Head"))
+    PL.Range = 100
+    PL.Brightness = 1
+    PL.Shadows = false
+    end
+  
+  
+  function reset_camera_pos()
+    local cam = (workspace.CurrentCamera);
+    local char = (workspace:FindFirstChild(game.Players.LocalPlayer.Name));
+    
+    cam.CFrame = CFrame.new(10,50,75);
+    wait(3);
+    cam.CameraSubject = (char:FindFirstChild("Humanoid"));
+    cam.CameraType = Enum.CameraType.Custom;
+    
+    wait();
+    script:Destroy();
+  end
+  
+  function Pay(ID)
+    spawn(function()
+        game:GetService("ReplicatedStorage").NPCDialog.PlayerChatted:InvokeServer({["ID"] = ID,["Character"] = "name",["Name"] = "name",["Dialog"] = 'Dialog'}, "ConfirmPurchase");
+    end)
+  end
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+    ---
+---gui
+local window = library:new("Xiyizi X")
+
+local Main = ui:Tab('Main','11129688807')
+
+local Player = ui:Tab('Player','6023426915')
+
+--
+local World = ui:Tab('World','6026568213')
+
+--
+local Teleport = ui:Tab('Teleports','2790556871')
+
+--
+local Vehicle = ui:Tab('Vehicle','6034464371')
+
+--
+local Wood = ui:Tab('Wood','6034503369')
+
+--
+local Slot = ui:Tab('Slot','6031090999')
+
+--
+local Dupe = ui:Tab('Dupe','6035053278')
+
+--
+local AutoBuy = ui:Tab('Auto Buy','6031289461')
+
+--
+local UpdateLogs = ui:Tab('Dev Logs','6962520787')
+
+--
+
+
+--home
+local section1 = Main:section('Credit',true)
+
+section1:Label("Underscore__#8906 For This Gui")
+section1:Label("Xyco For Help Me To Make Hwid System")
+section1:Label("KangAloks Devs")
+
+local section2 = Main:section('Settings',true)
+
+section2:Keybind("Toggle GUI", "F", function()
+  ToggleUILib()
+end)
+
+section2:Button('Destroy GUI', function()
+  ToggleUILib()
+end)
+
+
+section2:Button('B Tools', function()
+  loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+section2:Button('Rejoin Server', function()
+  local game_id = 13822889
+  local game_url = "https://www.roblox.com/games/"..game_id
+  game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+section2:Toggle('LT2 Music', 'ToggleVal', true, function(value)
+  LT2Music(value)
+end)
+
+--player
+
+local Humanoid = Player:section('Humanoid',true)
+
+Humanoid:Slider('Walk Speed', 'SliderVal', 16, 16, 500,false, function(value)
+  getgenv().Speed = value
+    walkspeed()
+end)
+
+Humanoid:Slider('Jump Power', 'SliderVal', 50, 50, 500,false, function(value)
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+end)
+
+Humanoid:Toggle('Fly', 'ToggleVal', false, function(value)
+  if not FlyKeyToggleNotifSent then
+    Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+    FlyKeyToggleNotifSent  = true
+    OrionLib:MakeNotification({
+      Name = "Dragon Hub X",
+      Content = "Click Q To enable flight",
+      Image = "rbxassetid://10044538000",
+      Time = 5
+    })
+    
+end
+FlyingEnabled = value
+end)
+
+Humanoid:Slider('Fly Speed', 'SliderVal', 50, 50, 300,false, function(value)
+  maxspeed = value
+end)
+
+Humanoid:Slider('Gravity', 'SliderVal', 200, 200, 1,false, function(value)
+  game:GetService("Workspace").Gravity = value
+end)
+
+local Misc = Player:section('Misc',true)
+
+Misc:Toggle('Hard Dragger', 'ToggleVal', false, function(Value)
+  CustomDragger = Value
+end)
+
+Misc:Toggle('No Clip', 'ToggleVal', false, function(state)
+  if state then
+    noclip()
+else
+    clip()
+end
+end)
+
+
+local Lighting = World:section('Lighting',true)
+
+Lighting:Toggle('Light', 'ToggleVal', false, function(value)
+  Light(value)
+end)
+
+Lighting:Toggle('Always Day', 'ToggleVal', false, function(value)
+  AlwaysDay = value
+end)
+
+Lighting:Toggle('Always Night', 'ToggleVal', false, function(value)
+  AlwaysNight = value
+end)
+
+Lighting:Toggle('Clear Fog', 'ToggleVal', false, function(value)
+  ClearFog = value
+end)
+
+Lighting:Toggle('Spook', 'ToggleVal', false, function(value)
+  SpookMode(value)
+end)
+
+Lighting:Toggle('Shadows', 'ToggleVal', true, function(value)
+  Shadows(value)
+end)
+
+Lighting:Button('Better Graphic (BETA)', function()
+  Graphic()
+end)
+
+Lighting:Slider('Brightness', 'SliderVal', 1, 1, 30,false, function(value)
+  Brightness(value)
+end)
+
+Lighting:Slider('FOV', 'SliderVal', 70, 70, 120,false, function(value)
+  game:GetService'Workspace'.Camera.FieldOfView = value
+end)
+
+local Wrld = World:section('World',true)
+
+Wrld:Toggle('Remove Water', 'ToggleVal', false, function(value)
+  DestroyWater(value)
+end)
+
+Wrld:Toggle('Walk On Water', 'ToggleVal', false, function(value)
+  SolidWater(value)
+end)
+
+---
+
+local Tp = Teleport:section('Teleports',true)
+
+local Waypoints = {["The Den"] = CFrame.new(323, 49, 1930), ["Lighthouse"] = CFrame.new(1464.8, 356.3, 3257.2), ["Safari"] = CFrame.new(111.853, 11.0005, -998.805), ["Bridge"] = CFrame.new(112.308, 11.0005, -782.358), ["Bob's Shack"] = CFrame.new(260, 8, -2542), ["EndTimes Cave"] = CFrame.new(113, -214, -951), ["The Swamp"] = CFrame.new(-1209, 132, -801), ["The Cabin"] = CFrame.new(1244, 66, 2306), ["Volcano"] = CFrame.new(-1585, 625, 1140), ["Boxed Cars"] = CFrame.new(509, 5.2, -1463), ["Tiaga Peak"] = CFrame.new(1560, 410, 3274), ["Land Store"] = CFrame.new(258, 5, -99), ["Link's Logic"] = CFrame.new(4605, 3, -727), ["Palm Island"] = CFrame.new(2549, -5, -42), ["Palm Island 2"] = CFrame.new(1960, -5.900, -1501), ["Palm Island 3"] = CFrame.new(4344, -5.900, -1813), ["Fine Art Shop"] = CFrame.new(5207, -166, 719), ["SnowGlow Biome"] = CFrame.new(-1086.85, -5.89978, -945.316), ["Cave"] = CFrame.new(3581, -179, 430), ["Shrine Of Sight"] = CFrame.new(-1600, 195, 919), ["Fancy Furnishings"] = CFrame.new(491, 13, -1720), ["Docks"] = CFrame.new(1114, 3.2, -197), ["Strange Man"] = CFrame.new(1061, 20, 1131), ["Wood Dropoff"] = CFrame.new(323.406, -2.8, 134.734), ["Snow Biome"] = CFrame.new(889.955, 59.7999, 1195.55), ["Wood RUs"] = CFrame.new(265, 5, 57), ["Green Box"] = CFrame.new(-1668.05, 351.174, 1475.39), ["Spawn"] = CFrame.new(172, 2, 74), ["Cherry Meadow"] = CFrame.new(220.9, 59.8, 1305.8), ["Bird Cave"] = CFrame.new(4813.1, 33.5, -978.8),}
+
+Tp:Dropdown("Teleport To Waypoint", 'Dropdownval',WaypointsPositions, function(tp)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Waypoints[tp]
+end)
+
+local Pt = Teleport:section('Player Teleport',true)
+
+Pt:Dropdown("Teleport To Player", 'Dropdownval',plrs, function(SelectPlayer)
+  plrselected = game.Players[SelectPlayer]
+end)
+
+Pt:Button('Teleport To Selected Player', function()
+  TeleportToPlayer()
+end)
+
+Pt:Button('Teleport To Selected Player Base', function()
+  TeleportToBase()
+end)
+---
+
+local Vs = Vehicle:section('Vehicle Speed',true)
+
+Vs:Slider('Vehicle Speed', 'SliderVal', 1, 1, 10,false, function(value)
+  VehicleSpeed(value)
+end)
+
+Vs:Button('Flip/Unflip', function()
+  UnFlipVehicle()
+end)
+
+local Vf =  Vehicle:section('Vehicle Fly',true)
+
+Vf:Slider('Fly Speed', 'SliderVal', 1, 1, 10,false, function(value)
+  iyflyspeed = value
+  vehicleflyspeed = value
+end)
+
+Vf:Toggle('Car Fly', 'ToggleVal', false, function(v)
+  if v == true then
+    player = game.Players.LocalPlayer
+      humanoid = player.Character.Humanoid
+        if humanoid.Seated then
+          local CurrentSeat = player.Character.Humanoid.SeatPart
+             if CurrentSeat and CurrentSeat.Parent.Type.Value == "Vehicle" then
+              NOFLY()
+                wait()
+                  sFLY(true)
+              end
+            end
+          else
+      NOFLY()
+    end
+end)
+
+local Ao = Dupe:section('Axe Options',true)
+
+Ao:Slider('Slot Number', 'SliderVal', 1, 1, 6,false, function(value)
+  slotnumber = value 
+end)
+
+Ao:Button('Start Dupe', function()
+  if #game.Players.LocalPlayer.Backpack:GetChildren() >= 6 then 
+    return
+    DropAllTools()
+end;
+AxeDupe(Slot)
+end)
+
+Ao:Button('Drop All Axe', function()
+  DropAllTools()
+end)
+
+Ao:Button('Count All Axes', function()
+  CountAllAxes()
+end)
+
+local Bw = Wood:section('Bring Tree',true)
+
+Bw:Button('Generic', function(WoodTable)
+  bringy("Generic")
+end)
+
+Bw:Button('Oak', function(WoodTable)
+  bringy("Oak")
+end)
+
+Bw:Button('Walnut', function(WoodTable)
+  bringy("Walnut")
+end)
+
+Bw:Button('Volcano', function(WoodTable)
+  bringy("Volcano")
+end)
+
+Bw:Button('GreenSwampy', function(WoodTable)
+  bringy("GreenSwampy")
+end)
+
+Bw:Button('GoldSwampy', function(WoodTable)
+  bringy("GoldSwampy")
+end)
+
+Bw:Button('Palm', function(WoodTable)
+  bringy("Palm")
+end)
+
+Bw:Button('SnowGlow', function(WoodTable)
+  bringy("SnowGlow")
+end)
+
+Bw:Button('Frost', function(WoodTable)
+  bringy("Frost")
+end)
+
+Bw:Button('CaveClawler', function(WoodTable)
+  bringy("CaveClawler")
+end)
+
+Bw:Button('LoneCave (Phantom Tree)', function(WoodTable)
+  bringy("LoneCave")
+end)
+
+local Lo = Wood:section('Log Options',true)
+
+
+Lo:Button('Bring All Logs', function()
+  if not CheckIfWPPlaced() then return end
+      
+      
+  if IsStandingAPlank then Notify("Xiyizi X","You are busy") return end
+  
+  CuttingTree = true
+  local OldCharacterPos = GetWPLoc()
+  
+  for _,v in pairs(workspace.LogModels:GetChildren()) do
+      if v:IsA("Model") then
+          if v:FindFirstChild("Owner") ~= nil and v.Owner.Value == Player then
+              if CancelActions then break end
+              BringObject(v, OldCharacterPos,{true, false})
+          end     
+      end    
+  end
+  
+  GetChar():SetPrimaryPartCFrame(OldCharacterPos)
+  
+  CuttingTree = false
+  CancelActions = false 
+end)
+
+local Po = Wood:section('Plank Options',true)
+
+Po:Button('Sell All Planks', function()
+  for i,v in next,game.Workspace.PlayerModels:GetChildren() do
+    if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+        if v:FindFirstChild("WoodSection") then
+            game.Players.LocalPlayer.Character.Humanoid.Jump = true
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.WoodSection.CFrame
+            game.Players.LocalPlayer.Character.Humanoid.Jump = true
+            wait(1)
+            if v.WoodSection then
+                repeat wait()
+                game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
+                v.WoodSection.CFrame = CFrame.new(314.20575, -0.400000274, 85.7978668, 0.94260478, -7.16537585e-08, -0.333910495, 5.62629374e-08, 1, -5.57635822e-08, 0.333910495, 3.37762351e-08, 0.94260478)
+                game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
+                until v.WoodSection.CFrame
+            end
+        end
+    end
+end
+
+wait(0.1)
+for _, Plank in pairs(game.Workspace.PlayerModels:GetChildren()) do
+  if Plank.Name=="Plank" and Plank:findFirstChild("Owner") then
+    if Plank.Owner.Value == game.Players.LocalPlayer then
+      for i,v in pairs(Plank:GetChildren()) do
+        if v.Name=="WoodSection" then
+          spawn(function()
+            for i=1,10 do
+              wait()
+              v.CFrame=CFrame.new(Vector3.new(315, -0.296, 85.791))*CFrame.Angles(math.rad(90),0,0)
+            end
+          end)
+        end
+      end
+      spawn(function()
+        for i=1,20 do
+          wait()
+          game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Plank)
+        end
+      end)
+    end
+  end
+end
+end)
+
+Po:Button('Bring All Planks', function()
+  if not CheckIfWPPlaced() then return end
+      
+  if IsStandingAPlank then Notify("Xiyizi X","You are busy",10) return end
+  
+  CuttingTree = true
+  
+  local OldCharacterPos = GetChar().Head.CFrame
+
+  for _,v in pairs(workspace.PlayerModels:GetChildren()) do
+      if v.Name == "Plank" then
+          if v:FindFirstChild("Owner") ~= nil and v.Owner.Value == Player then
+              if CancelActions then break end
+              BringObject(v, OldCharacterPos,{true, false})
+          end     
+      end    
+  end
+  
+  GetChar():SetPrimaryPartCFrame(OldCharacterPos)
+  
+  CuttingTree = false
+  CancelActions = false 
+end)
+
+function LoadSlot()
+  local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.ClientMayLoad:InvokeServer(player)
+      if LoadSlot then
+          game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(Slot, player)
+      end
+  end
+
+
+local Slot = Slot:section('Slot',true)
+
+Slot:Slider('Slot Number', 'SliderVal', 0, 0, 6,false, function(new)
+  slot = tonumber(new)
+end)
+
+Slot:Toggle('Fast Load', 'ToggleVal', false, function(state)
+  if state then
+    skipLoading = true
+else
+    skipLoading = false
+end
+return skipLoading
+end)
+
+local N=game:GetService("VirtualInputManager")
+
+function LoadSlot()
+  local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.ClientMayLoad:InvokeServer(player)
+      if LoadSlot then
+          game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(Slot, player)
+      end
+  end
+
+Slot:Button('Load Slot', function()
+  Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+    OrionLib:MakeNotification({
+      Name = "Xiyizi X",
+      Content = "Loading Slot...",
+      Image = "rbxassetid://7040410130",
+      Time = 5
+    })
+    wait(2)
+    Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+    OrionLib:MakeNotification({
+      Name = "387",
+      Content = "Callback Error",
+      Image = "rbxassetid://7040410130",
+      Time = 5
+    })
+  N:SendKeyEvent(true,"Q",false,game)
+  LoadSlot()
+end)
+
+
+Slot:Button('Free Land', function()
+  Freeland()
+end)
+
+Slot:Button('Max Land', function()
+  Maxland()
+end)
+
+Slot:Button('Save Slot', function()
+  SaveSlot()
+end)
+
+Slot:Button('Sell Property Sold Sign', function()
+  SellPropertySoldSign()
+end)
+
+---
+
+local Ab = AutoBuy:section('Auto Buy',true)
+
+Ab:Slider('Ammount To Buy', 'SliderVal', 1, 1, 500,false, function(Value)
+  AmountToBuy = Value
+end)
+AmountToBuy = 1
+
+Ab:Dropdown("Select Item", 'Dropdownval',ItemList, function(Value)
+  ItemToBuy = Value
+end)
+
+local Pi = AutoBuy:section('Purchace Item',true)
+
+Pi:Button('Buy', function()
+  if not CheckIfWPPlaced() then return end
+  
+  
+  if ItemToBuy then               
+      CuttingTree = true
+      local OldCharacterPos = GetChar().Head.CFrame
+      BuyItem(string.split(ItemToBuy, " = ")[1],AmountToBuy,GetWPLoc())
+      CuttingTree = true
+      IsStandingAPlank = true
+      GetChar():SetPrimaryPartCFrame(OldCharacterPos)
+  else
+    Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+    OrionLib:MakeNotification({
+      Name = "Xiyizi X",
+      Content = "Please Select An Item To Buy...",
+      Image = "rbxassetid://7040410130",
+      Time = 5
+    })
+  end  
+end)
+
+Pi:Button('Stop', function()
+  AbortAutoBuy=true
+end)
+
+local Si = AutoBuy:section('Special Item',true)
+
+Si:Button('Gold Blueprint', function()
+  Pay(3)
+  Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+  OrionLib:MakeNotification({
+    Name = "Xiyizi X",
+    Content = "Success..",
+    Image = "rbxassetid://7040410130",
+    Time = 5
+  })
+end)
+
+Si:Button('Lower Bridge', function()
+  Pay(15)
+  Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+  OrionLib:MakeNotification({
+    Name = "Xiyizi X",
+    Content = "Success..",
+    Image = "rbxassetid://7040410130",
+    Time = 5
+  })
+end)
+
+Si:Button('Ferry Ticket', function()
+  Pay(13)
+  Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://1788243907"; game:GetService("SoundService").Sound:Play()
+  OrionLib:MakeNotification({
+    Name = "Xiyizi X",
+    Content = "Success..",
+    Image = "rbxassetid://7040410130",
+    Time = 5
+  })
+end)
+
+Si:Button('Auto Buy All Blueprint', function()
+  local open = game.Workspace.PlayerModels.ChildAdded:connect(function(v)
+    spawn(function()
+        if v.Type.Value == "Blueprint" then
+            game:GetService("ReplicatedStorage").Interaction.ClientInteracted:FireServer(v, "Open box")
+        end
+    end)
+
+end)
+
+for i, v in pairs(game:GetService("ReplicatedStorage").ClientItemInfo:GetChildren()) do
+if v:FindFirstChild("WoodCost") then
+
+        if not game.Players.LocalPlayer.PlayerBlueprints.Blueprints:FindFirstChild(v.Name) then
+          if AbortAutoBuy then break end
+            BuyItem(v.Name, 1)
+         task.wait()
+        end
+
+    end
+
+end
+wait(1)
+open:Disconnect();
+open = nil;
+end)
+
+
+
+
+--#DUPE METHOD V2#--
+
+
+  function FreeLand()
+    for a,b in pairs(workspace.Properties:GetChildren()) do 
+        if b:FindFirstChild("Owner") and b:FindFirstChild("OriginSquare") and b.Owner.Value == nil then 
+       wait(1)
+       game.ReplicatedStorage.PropertyPurchasing.ClientPurchasedProperty:FireServer(b, b.OriginSquare.OriginCFrame.Value.p + Vector3.new(0,3,0))
+      for i,v in pairs(game.Workspace.Properties:GetChildren()) do
+       if v.Owner.Value == game.Players.LocalPlayer then
+      wait(0.1)
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,10,0)
+      wait(0.1)
+       game.Players.LocalPlayer.Character.Jump = false
+      break
+      end
+      end
+      end
+      end
+      end
+
+
+local Dupev2 = Dupe:section('Max Land Dupe',true)
+
+
+Dupev2:Label("Please read!")
+
+Dupev2:Label("If you make the slightest mistake your base will be write")
+
+Dupev2:Slider('Slot', 'SliderVal', 0, 0, 6,false, function(new)
+  Slot = tonumber(new)
+end)
+
+Dupev2:Textbox('Time To Tp To Middle', 'TextBoxVal', "0", function(new)
+  timetotp = tonumber(new)
+end)
+
+Dupev2:Textbox('How Much Time You Would Like To Take Off', 'TextBoxVal', "0", function(new)
+  timetoremove = tonumber(new)
+end)
+
+
+local N=game:GetService("VirtualInputManager")
+
+local Dupev2x = Dupe:section('Auto Max Land Dupe',true)
+
+Dupev2x:Button('Start Auto Max Land Dupe', function()
+  print("Loading slot")
+  N:SendKeyEvent(true,"Q",false,game)
+  wait(0.1) -- free land
+  N:SendKeyEvent(true,"T",false,game)
+  wait(0.1) -- loads the base
+  N:SendKeyEvent(true,"P",false,game) -- kicks from game
+  LoadSlot()
+end)
+  ---Sesudah Scripting
+  game.Players.PlayerAdded:Connect(function(plr)
+    table.insert(plrs, plr.Name)
+    Refresh:SetOptions(plrs)
+    end)
+    
+    game.Players.PlayerRemoving:Connect(function(plr)
+    table.remove(plrs, table.find(plrs, plr.Name))
+    Refresh:SetOptions(plrs)
+    end)
+
+    scr=getsenv(game.Players.LocalPlayer.PlayerGui.PropertyPurchasingGUI.PropertyPurchasingClient);
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+
+
+bind = "q" 
+
+
+
+mouse.KeyDown:connect(function(key)
+if key == bind then
+    repeat wait()until game.Players.LocalPlayer.PlayerGui.PropertyPurchasingGUI.SelectPurchase.Visible;
+    wait(1)
+    wait(0.9)
+    for i,v in next, game:GetService("Workspace").Properties:GetChildren() do
+        if v:FindFirstChild("Owner") and v.Owner.Value == nil then
+        game:GetService("ReplicatedStorage").PropertyPurchasing.ClientPurchasedProperty:FireServer(v,v.OriginSquare.Position)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,2,0)
+        break
+        end
+    end
+end
+end)
+
+
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+
+
+bind = "p" 
+
+
+
+mouse.KeyDown:connect(function(key)
+if key == bind then
+    repeat wait()until game.Players.LocalPlayer.PlayerGui.PropertyPurchasingGUI.SelectPurchase.Visible;
+    wait(1)
+    wait(2)
+    task.wait(timetotp - 2)
+    loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
+end
+end)
+
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+
+
+bind = "t" 
+
+
+
+mouse.KeyDown:connect(function(key)
+if key == bind then
+    repeat wait()until game.Players.LocalPlayer.PlayerGui.PropertyPurchasingGUI.SelectPurchase.Visible;
+    wait(0.3)
+    scr.scrollSelection(-1);
+    wait(0.1)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+    scr.scrollSelection(-1);
+    wait(0.3)
+    scr.selectionMade();
+    wait(0.3)
+    scr.selectionMade();
+    wait(1)
+scr.scrollSelection(-1);
+wait(0.3)
+scr.selectionMade();
+wait(0.3)
+scr.selectionMade();
+wait(1)
+scr.scrollSelection(-1);
+wait(0.3)
+scr.selectionMade();
+wait(0.3)
+scr.selectionMade();
+wait(1)
+scr.scrollSelection(-1);
+wait(0.3)
+scr.selectionMade();
+wait(0.3)
+scr.selectionMade();
+wait(1)
+scr.scrollSelection(-1);
+wait(0.3)
+scr.selectionMade();
+wait(0.3)
+scr.selectionMade();
+wait(1)
+scr.scrollSelection(-1);
+wait(0.3)
+scr.selectionMade();
+wait(0.3)
+scr.selectionMade();
+wait(1)
+scr.scrollSelection(-1);
+wait(0.3)
+scr.selectionMade();
+wait(0.3)
+scr.selectionMade();                       
+end
+end)
+    
+  
+    
+    -----UMAINTENANE-----
+
+    ---update logs---+
+
+    local Vrb = UpdateLogs:section('Version 2015-D',false)
+
+    Vrb:Label("[+] Adding Max Land Dupe")
+    Vrb:Label("[+] Change Ui Libs To Silent Ui Libs")
+    Vrb:Label("[+] Better Auto Buy Speed")
+    Vrb:Label("[+] Adding Graphics Enchanter (Beta)")
+    Vrb:Label("[*] Fixing Stuck In Console")
+    Vrb:Label("[-] Deleting Item Tab (We Want Rework This Feature)")
+
+
+    local Vcb = UpdateLogs:section('Version 2015-C',false)
+
+    Vcb:Label("[*] Fixing Bug")
+
+    local Vgb = UpdateLogs:section('Version 2015-B',false)
+    
+    Vgb:Label("[+] Updated Item Sorter")
+
+    local Ghb = UpdateLogs:section('Version 2015-A',false)
+
+    Ghb:Label("[+] New Feature Item Teleports")
+    Ghb:Label("[*] Better Auto Buy")
