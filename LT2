@@ -3607,7 +3607,7 @@ end
 
     ---
 ---gui
-local window = library:new("Xiyizi X")
+local ui = library:new("Xiyizi X")
 
 local Main = ui:Tab('Main','11129688807')
 
