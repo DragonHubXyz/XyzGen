@@ -401,6 +401,32 @@ end
         animate()
      
     end
+
+    coroutine.wrap(NPLHKB_fake_script)()
+      
+      SBG.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, zyColor), ColorSequenceKeypoint.new(1.00, zyColor)}
+      SBG.Rotation = 90
+      SBG.Name = "SBG"
+      SBG.Parent = SB
+    
+      TabBtnsL:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+        TabBtns.CanvasSize = UDim2.new(0, 0, 0, TabBtnsL.AbsoluteContentSize.Y + 18)
+      end)
+      Open.Name = "Open/Close"
+      Open.Parent = dogent
+      Open.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+      Open.Position = UDim2.new(0.00829315199, 0, 0.31107837, 0)
+      Open.Size = UDim2.new(0, 61, 0, 32)
+      Open.Font = Enum.Font.Cartoon
+      Open.Text = "Open"
+      Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+      Open.TextSize = 15.000
+      Open.Active = true
+      Open.Draggable = false
+      Open.MouseButton1Click:Connect(function()
+      Main.Visible = not Main.Visible
+      end)
+      UIG.Parent = Open
     coroutine.wrap(NPLHKB_fake_script)()
       
       SBG.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, zyColor), ColorSequenceKeypoint.new(1.00, zyColor)}
