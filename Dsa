@@ -710,7 +710,7 @@ function library:Introduction()
     edge.Position = UDim2.new(0.511773348, 0, 0.5, 0)
     edge.Size = UDim2.new(0, 300, 0, 308)
     
-    edgeCorner.CornerRadius = UDim.new(0, 8)
+    edgeCorner.CornerRadius = UDim.new(0, 15)
     edgeCorner.Name = "edgeCorner"
     edgeCorner.Parent = edge
     
@@ -728,7 +728,7 @@ function library:Introduction()
     backgroundGradient.Name = "backgroundGradient"
     backgroundGradient.Parent = background
     
-    backgroundCorner.CornerRadius = UDim.new(0, 8)
+    backgroundCorner.CornerRadius = UDim.new(0, 15)
     backgroundCorner.Name = "backgroundCorner"
     backgroundCorner.Parent = background
     
@@ -741,7 +741,7 @@ function library:Introduction()
     bar.BackgroundTransparency = 0.200
     bar.Size = UDim2.new(0, 0, 0, 1)
     
-    barCorner.CornerRadius = UDim.new(0, 8)
+    barCorner.CornerRadius = UDim.new(0, 15)
     barCorner.Name = "barCorner"
     barCorner.Parent = bar
     
@@ -758,7 +758,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=10044538000"
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
     xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     xsxLogo.ImageTransparency = 1
     
@@ -780,7 +780,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.GothamBold
-    xsx.Text = "Powered By Xiyizi X Teams"
+    xsx.Text = "               Powered By Xiyizi X Teams 2023"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
@@ -815,18 +815,18 @@ function library:Introduction()
 
     TweenService:Create(edge, TweenTable["introduction"], {BackgroundTransparency = 0}):Play()
     TweenService:Create(background, TweenTable["introduction"], {BackgroundTransparency = 0}):Play()
-    wait(5)
+    wait(.2)
     TweenService:Create(bar, TweenTable["introduction"], {Size = UDim2.new(0, 298, 0, 1)}):Play()
-    wait(.5)
+    wait(.2)
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 0}):Play()
     TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 0}):Play()
-    wait(.5)
+    wait(.3)
     TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
-    wait(5)
+    wait(2)
     TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
     wait(.2)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
-    wait(5)
+    wait(2)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
     wait(.1)
     TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 1}):Play()
@@ -834,10 +834,10 @@ function library:Introduction()
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 1}):Play()
     wait(.1)
     TweenService:Create(bar, TweenTable["introduction"], {Size = UDim2.new(0, 0, 0, 1)}):Play()
-    wait(.5)
+    wait(.1)
     TweenService:Create(background, TweenTable["introduction"], {BackgroundTransparency = 1}):Play()
     TweenService:Create(edge, TweenTable["introduction"], {BackgroundTransparency = 1}):Play()
-    wait(.5)
+    wait(.2)
     introduction:Destroy()
 end
 
