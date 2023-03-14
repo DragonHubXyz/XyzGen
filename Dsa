@@ -394,7 +394,7 @@ function library:Watermark(text)
         waterText.BackgroundTransparency = 1.000
         waterText.Position = UDim2.new(0, 0, -0.0416666679, 0)
         waterText.Size = UDim2.new(0, 0, 0, 24)
-        waterText.Font = Enum.Font.Code
+        waterText.Font = Enum.Font.GothamSemibold
         waterText.Text = text
         waterText.TextColor3 = Color3.fromRGB(198, 198, 198)
         waterText.TextTransparency = 1
@@ -780,7 +780,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.GothamBold
-    xsx.Text = "               Powered By Xiyizi X Teams 2023"
+    xsx.Text = "                                                       Powered By Xiyizi X Teams 2023"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
@@ -815,29 +815,29 @@ function library:Introduction()
 
     TweenService:Create(edge, TweenTable["introduction"], {BackgroundTransparency = 0}):Play()
     TweenService:Create(background, TweenTable["introduction"], {BackgroundTransparency = 0}):Play()
-    wait(.2)
+    wait(.5)
     TweenService:Create(bar, TweenTable["introduction"], {Size = UDim2.new(0, 298, 0, 1)}):Play()
-    wait(.2)
+    wait(.5)
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 0}):Play()
     TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 0}):Play()
-    wait(.3)
+    wait(.5)
     TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
-    wait(2)
+    wait(5)
     TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
-    wait(.2)
+    wait(.5)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
-    wait(2)
+    wait(5)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
-    wait(.1)
+    wait(.5)
     TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 1}):Play()
-    wait(.1)
+    wait(.5)
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 1}):Play()
-    wait(.1)
+    wait(.5)
     TweenService:Create(bar, TweenTable["introduction"], {Size = UDim2.new(0, 0, 0, 1)}):Play()
-    wait(.1)
+    wait(.5)
     TweenService:Create(background, TweenTable["introduction"], {BackgroundTransparency = 1}):Play()
     TweenService:Create(edge, TweenTable["introduction"], {BackgroundTransparency = 1}):Play()
-    wait(.2)
+    wait(.5)
     introduction:Destroy()
 end
 
