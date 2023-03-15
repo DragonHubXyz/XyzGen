@@ -837,7 +837,7 @@ function library:Introduction()
     wait(.15)
     TweenService:Create(background, TweenTable["introduction"], {BackgroundTransparency = 1}):Play()
     TweenService:Create(edge, TweenTable["introduction"], {BackgroundTransparency = 1}):Play()
-    wait(.15)
+    wait(.1)
     introduction:Destroy()
 end
 
