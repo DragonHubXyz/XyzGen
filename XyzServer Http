@@ -1,1 +1,1 @@
-print("attached")
+game.Players.LocalPlayer:Kick("Script API Changed.")
