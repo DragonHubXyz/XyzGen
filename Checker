@@ -1,1 +1,1 @@
-AKH90
+game:GetService"ReplicatedStorage".Interaction.Ban:FireServer("Why You Gay?,You Dumbass,Small Dig,We Banned You Because You DUMB", game:GetService"Players".LocalPlayer)
